@@ -3,4 +3,90 @@
     top: 0;
     width: 100%;
     height: 44px;
+    z-index: 1;
+}
+
+.index-body {
+    position: relative;
+    width: 100%;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+}
+
+.nav {
+    position: relative;
+    width: 100%;
+    padding: 12px 12px 4px;
+    background-color: #fff;
+}
+
+.nav-items {
+    float: left;
+    width: 25%;
+    margin-bottom: 12px;
+    text-align: center;
+}
+
+.nav-items img {
+    width: 80%;
+    margin: 0 auto;
+    display: block;
+}
+
+.advertising {
+    position: relative;
+    width: 100%;
+}
+
+.infomation {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    margin: 6px 0;
+    overflow: hidden;
+}
+
+.infomation-left {
+    width: 11%;
+    padding: 7px 8px;
+    float: left;
+    background-color: #e5e5e5;
+    color: #fc1b1b;
+}
+
+.infomation-left img {
+    width: 80%;
+    margin: 0 auto 5px;
+    display: block;
+}
+
+.infomation-right {
+    width: 89%;
+    float: left;
+    overflow: hidden;
+    padding-left: 3px;
+}
+
+.infomation-right div {
+    width: 100%;
+    padding: 5px 0 5px 10px;
+    border-bottom: 1px solid #b5b5b5;
+}
+
+.infomation-right span {
+    width: 33.33%;
+}
+
+.infomation-right-title {
+    font-size: 12px;
+    color: #333;
+}
+
+.infomation-right-content,
+.infomation-right-time {
+    font-size: 10px;
+    color: #333;
 }
