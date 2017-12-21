@@ -35,23 +35,25 @@ display: block;margin: 0;padding: 0;}
 	z-index: 2;
 }
 .return_key{
-	width: 18px;
+	width: 12px;
 	height: 28px;
 	float: left;
     position: relative;
     top: 30%;
     left: 5%;
 	background: url(../images/arrow_left.png) no-repeat center;
+	background-size: 100%;
 	display: block;
 }
 .menu_icon{
-	width: 40px;
+	width: 30px;
 	height: 29px;
 	float: right;
     position: relative;
     top: 30%;
     right: 5%;
 	background: url(../images/navigation.png) no-repeat center;
+	background-size: 100%;
 	display: block;
 }
 /*购物车内容start*/
@@ -62,24 +64,24 @@ display: block;margin: 0;padding: 0;}
     margin-bottom: 15px;
     border: 0.5px solid #E5E5E5;
 }
-.whole_store .shop_merchandise{
+.shop_merchandise{
 	width: 100%;
 	overflow: hidden;
     line-height: 30px;
     margin-top: 20px;
 }
-.whole_store .shop_merchandise .product_name{
+.shop_merchandise .product_name{
 	color: #666666;
 	font-size: 16px;
 	margin-left: 3%;
 }
 
 .select_icon{
-	background: url(../images/ellipse_off.png)  no-repeat center;
+	background: url(../images/ellipse_off.png)  no-repeat 0 4px;
 	background-size: 100%;
     float: left;
     margin-left: 7%;
-    width: 30px;
+    width: 25px;
     height: 30px;
 }
 
@@ -97,7 +99,7 @@ display: block;margin: 0;padding: 0;}
     color: #A0A0A0;
     margin-left: 2%;
     background: url(../images/arrow_right.png) no-repeat center;
-    background-size: 100% 100%;
+    background-size:100%;
 }
 .shopcart_detail{
     padding-bottom: 5%;
@@ -115,7 +117,8 @@ display: block;margin: 0;padding: 0;}
  .shopcart_detail_img{
     width: 25%;
     float: left;
-    margin-left: 3%;
+    margin-left: 5px;
+    margin-top: 10px;
 }
  .shopcart_detail_img img{
     width: 100%;
@@ -123,7 +126,7 @@ display: block;margin: 0;padding: 0;}
 }
 .select_middle{
 	position: relative;
-	top: 30px;
+	top: 23px;
 }
 
  .detail_content{
@@ -157,7 +160,7 @@ display: block;margin: 0;padding: 0;}
 }
 .price_setting p{
 	float: left;
-	margin-top: 2%;
+	margin-top: 2px;
 }
 .price_size{
 	font-size: 18px;
@@ -186,9 +189,9 @@ display: block;margin: 0;padding: 0;}
 	font-size: 12px;
 }
 .price_setting .abandoned{
-	text-decoration: 
-	line-through;
-	margin-left: 5%;
+	text-decoration:line-through;
+	line-height:25px ;
+	margin-left: 8px;
 	color: #666666;
 }
 .priceColor_red{
@@ -394,6 +397,104 @@ display: block;margin: 0;padding: 0;}
 	background-color: #FC5052;
 	
 }
+.search_box{
+	height: 60px;
+    background-color: #e8e8e8;
+    text-align: center;
+    line-height: 60px;
+    position: relative;
+}
+.search_box_tech{
+	position: absolute;
+    top: 0px;
+    left: 43%;
+    width: 21%;
+}
+.search_box .search{
+	width: 86%;
+    height: 35px;
+    border-radius: 10px;
+    border: 0px solid;
+}
+.search_box_tech .search_sea{
+	background: url(../images/integral.png) no-repeat center;
+	padding: 5px;
+}
+.search_box_tech .search_txt{
+    color: #999;
+    font-size: 14px;
+}
+.order_list{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    font-size: 16px;
+    color: #666666;
+    border-bottom: 0.5px solid #eee;
+}
+.order_list li{
+    float: left;
+    width: 16%;
+    line-height: 50px;
+    text-align: center;
+    margin-left: 10px;
+}
+.order_list li a{
+	display: block;
+	color: #666666;
+	font-size: 16px;
+}
+.order_list .cleak a{
+    color: #EF4441;
+    border-bottom: 1px solid #EF4441;
+}
+.single_number{
+	width: 100%;
+    font-size: 16px;
+    color: #666666;
+    text-indent: 10px;
+    line-height: 45px;
+    border-bottom: 0.5px solid #eee;
+}
+.delete_order{
+	background: url(../images/luckdraw.png) no-repeat center;
+	background-size: 100%;
+    padding: 22px;
+    float: right;
+    margin-right: 10px;
+}
+.order_merchandise{
+    border: 0.5px solid #eee;
+    line-height: 50px;
+    margin-top: 0px;
+}
+.order_icon{
+	background: url(../images/unclaimed.png) no-repeat center;
+	background-size: 100%;
+    padding: 3px 10px;
+    margin-left: 10px;
+}
+.delete_order_sub{
+    float: right;
+    width: 7px;
+    height: 40px;
+    margin-right: 10px;
+    background-position: -6px 10px;
+}
+.order_img{
+   margin-left: 10px;
+}
+.order_content{
+	float: left;
+    width: 63%;
+    margin-left: 15px;
+}
+.order_content .specification{
+	border: 0px solid;
+} 
+.shopcart_detail_slip .order_img{
+	margin-top: 0px;
+}
 /*400px以下的媒体查询*/
 @media (max-width: 400px) {
 	body {
@@ -402,7 +503,7 @@ display: block;margin: 0;padding: 0;}
     .detail_content .specification span{
     	font-size: 12px;
     }
-    .whole_store .shop_merchandise .product_name{
+     .shop_merchandise .product_name{
     	font-size: 14px;
     }
 }
