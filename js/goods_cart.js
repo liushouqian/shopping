@@ -42,28 +42,28 @@ $(function() {
 	//	全选+按钮
 	$(".select_icon").toggle(
 		function() {
-			$(this).css('background-image', 'url(img/ellipse_on.png)');
+			$(this).css('background-image', 'url(../images/ellipse_on.png)');
 		},
 		function() {
-			$(this).css('background-image', 'url(img/ellipse_off.png)');
+			$(this).css('background-image', 'url(../images/ellipse_off.png)');
 		}
 	);
 	$(".select_icon_all").on("click", function() {
-		if($(this).css('background-image', 'url') == 'img/ellipse_off.png') {
-			$(".select_icon").css('background-image', 'url(img/ellipse_on.png)');
+		if($(this).css('background-image', 'url') == '../images/ellipse_off.png') {
+			$(".select_icon").css('background-image', 'url(../images/ellipse_on.png)');
 			alert(1);
 		} else {
-			$(".select_icon").css('background-image', 'url(img/ellipse_off.png)');
+			$(".select_icon").css('background-image', 'url(../images/ellipse_off.png)');
 			alert(2);
 		}
 	})
 
 	$(".select_icon_all").toggle(
 		function() {
-			$(".select_icon").css('background-image', 'url(img/ellipse_on.png)');
+			$(".select_icon").css('background-image', 'url(../images/ellipse_on.png)');
 		},
 		function() {
-			$(".select_icon").css('background-image', 'url(img/ellipse_off.png)');
+			$(".select_icon").css('background-image', 'url(../images/ellipse_off.png)');
 		}
 	);
 
