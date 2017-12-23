@@ -104,4 +104,26 @@ $(function() {
 		}
 		$(this).prev().val(num);
 	});
+	
+//	我的订单
+	$('.menu_icon').on("click", function() {
+		$('#search_box').hide();
+		$('#order_nav').show();
+	})
+	$('.menu_icon').toggle(
+	 function(){
+	 	$('#search_box').hide();
+  		$('#order_nav').show();
+	 },
+	 function(){
+  		$('#search_box').show();
+  		$('#order_nav').hide();
+	})
+	
+//	个人信息上传头像
+	$('#file_upload').on('click', function(e) {
+    e.preventDefault();
+    $(this).closest('input[type=file]').trigger('click');
+})
+	
 })
