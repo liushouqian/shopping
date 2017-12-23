@@ -4,6 +4,84 @@
     width: 100%;
     height: 44px;
     z-index: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.index-search.active .site,
+.index-search.active .search-content input::-webkit-input-placeholder {
+    color: #444;
+}
+
+.site-logo {
+    position: absolute;
+    top: 11px;
+    left: 2%;
+    width: 4%;
+}
+
+.site {
+    position: absolute;
+    left: 6.5%;
+    width: 16%;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    line-height: 44px;
+}
+
+.down_arrow {
+    position: absolute;
+    top: 19px;
+    left: 23%;
+    width: 3.5%;
+}
+
+.search-content {
+    position: absolute;
+    top: 5.5px;
+    left: 27.5%;
+    width: 62%;
+    height: 30px;
+}
+
+.search-content img {
+    position: absolute;
+    top: 8px;
+    left: 26%;
+    width: 6%;
+    display: block;
+}
+
+.search-content.active img {
+    display: none;
+}
+
+.message {
+    position: absolute;
+    top: 12px;
+    left: 93%;
+    width: 4.5%;
+}
+
+.search-content input {
+    width: 100%;
+    height: 100%;
+    padding-left: 10%;
+    border-radius: 5px;
+    outline-style: none;
+    border: none;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    opacity: 0.8;
+}
+
+.search-content input::-webkit-input-placeholder {
+    color: #aaa;
+}
+
+.search-content.active input {
+    text-align: left;
 }
 
 .index-body {
@@ -15,6 +93,17 @@
 .banner {
     position: relative;
     width: 100%;
+    overflow: hidden;
+}
+
+.banner ul {
+    position: relative;
+    left: 0;
+    transition: all 1s ease-in-out;
+}
+
+.banner ul li {
+    float: left;
 }
 
 .nav {
@@ -45,6 +134,7 @@
 .infomation {
     position: relative;
     width: 100%;
+    height: 56px;
     background-color: #fff;
     margin: 6px 0;
     overflow: hidden;
@@ -72,10 +162,12 @@
 }
 
 .infomation-right div {
+    position: relative;
+    top: 0;
     width: 100%;
     padding: 5px 0 5px 10px;
     border-top: 1px solid #b5b5b5;
-    margin-top: -1px;
+    margin: -1px 0 2px;
 }
 
 .infomation-right span {
@@ -93,7 +185,7 @@
     color: #333;
 }
 
-.active {
+.active-div {
     width: 100%;
     padding: 10px 15px;
     margin-bottom: 5px;
