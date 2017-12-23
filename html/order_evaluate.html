@@ -11,7 +11,9 @@
 		<link rel="stylesheet" type="text/css" href="../css/goods_cart.css" />
 		<script src="../js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
 		<style type="text/css">
-			html{background-color:#f6f6f6;}
+			html {
+				background-color: #f6f6f6;
+			}
 		</style>
 	</head>
 
@@ -20,6 +22,7 @@
 			<a><span class="return_key"></span></a>
 			<span>我的订单</span>
 			<span class="menu_icon"></span>
+
 		</header>
 		<div style="height: 60px;"></div>
 		<div class="search_box">
@@ -31,37 +34,37 @@
 		</div>
 		<article>
 			<ul class="order_list">
-				<li >
+				<li>
 					<a href="order_subpage.html"><span>全部</span></a>
 				</li>
-				<li>
-					<a href="order_payment.html"><span>代付款</span></a>
+				<li >
+					<a href="order_payment.html"><span>待付款</span></a>
 				</li>
 				<li >
-					<a href="order_deliver.html"><span>代发货</span></a>
+					<a href="order_deliver.html"><span>待发货</span></a>
 				</li>
 				<li >
-					<a href="order_receipt.html"><span>代收货</span></a>
+					<a href="order_receipt.html"><span>待收货</span></a>
 				</li>
 				<li class="cleak">
-					<a href="order_evaluate.html"><span>代评价</span></a>
+					<a href="order_evaluate.html"><span>待评价</span></a>
 				</li>
 			</ul>
 			<div class="single_number">
 				<span>订单号:</span>
 				<span>8783789423</span>
-				<span class="delete_order "></span>
 			</div>
 			<div id="order_list_cont">
 				<div class="cont">
-					<div class="whole_store">
+					<div class="whole_store whole_store_order">
 						<div class="shop_merchandise order_merchandise">
 							<span class="order_icon"></span>
 							<span class="product_name">花花公子服饰专营店</span>
-							<span class="forward_key delete_order_sub"></span>
+							<span class="forward_key "></span>
+							<span class="delete_order_sub">交易成功</span>
 						</div>
 						<div class="shopcat_commodity">
-							<div class="shopcart_detail shopcart_detail_slip">
+							<div class="shopcart_detail  shopcart_detail_order">
 								<div class="shopcart_detail_next">
 									<p class="shopcart_detail_img order_img">
 										<img src="../images/pic.png" />
@@ -73,40 +76,26 @@
 											<span>1389黑色【加绒款】</span>;
 											<span>L/170</span>
 										</p>
-										<div class="price_setting">
-											<p>
-												<span class="priceColor_red">￥<b class="price_size">298</b></span>
-											</p>
-											<p class="abandoned">
-												<span>￥499</span>
-											</p>
-										</div>
 									</div>
-								</div>
-							</div>
-
-							<div class="shopcart_detail shopcart_detail_slip">
-								<div class="shopcart_detail_next">
-									<p class="shopcart_detail_img order_img">
-										<img src="../images/pic.png" />
-									</p>
-
-									<div class="detail_content order_content">
-										<p class="detail_content_tit">男士冬季外套2017新款 棉衣加厚休闲</p>
-										<p class="specification">
-											<span>1389黑色【加绒款】</span>;
-											<span>L/170</span>
+									<div class="price_setting">
+										<p>
+											<span class="priceColor_red">￥<b class="price_size">298</b></span>
 										</p>
-										<div class="price_setting">
-											<p>
-												<span class="priceColor_red">￥<b class="price_size">298</b></span>
-											</p>
-											<p class="abandoned">
-												<span>￥499</span>
-											</p>
-										</div>
+										<p class="abandoned">
+											<span>￥499</span>
+										</p>
+										<p>
+											<span>×1</span>
+										</p>
 									</div>
+									<p class="pay_total">
+										合计：<span>289.00</span>(含运费)
+									</p>
 								</div>
+								<p class="pay_total_order">
+									<button class="pay_order pay_order_no">删除订单</button>
+									<button class="pay_order pay_order_yes">评价</button>
+								</p>
 							</div>
 						</div>
 					</div>
@@ -116,6 +105,5 @@
 	</body>
 
 	<script src="../js/goods_cart.js" type="text/javascript" charset="utf-8"></script>
-	
 
 </html>

@@ -11,7 +11,9 @@
 		<link rel="stylesheet" type="text/css" href="../css/goods_cart.css" />
 		<script src="../js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
 		<style type="text/css">
-			html{background-color:#f6f6f6;}
+			html {
+				background-color: #f6f6f6;
+			}
 		</style>
 	</head>
 
@@ -22,12 +24,34 @@
 			<span class="menu_icon"></span>
 		</header>
 		<div style="height: 60px;"></div>
-		<div class="search_box">
+		<div class="search_box"id="search_box">
 			<input type="text" name="search" class="search" value="" />
-			<p class="search_box_tech">
+			<p class="search_box_tech" >
 				<span class="search_sea"></span>
 				<span class="search_txt">搜索</span>
 			</p>
+		</div>
+		<div class="order_nav" id="order_nav">
+			<div class="order_nav_items">
+				<img src="../images/index_footer_home_a.png" alt="home">
+				<p>首页</p>
+			</div>
+			<div class="order_nav_items">
+				<img src="../images/index_footer_class_b.png" alt="class">
+				<p>分类</p>
+			</div>
+			<div class="order_nav_items">
+				<img src="../images/index_footer_search_b.png" alt="search">
+				<p>搜索</p>
+			</div>
+			<div class="order_nav_items ">
+				<img src="../images/index_footer_shop_b.png" alt="shop">
+				<p>购物车</p>
+			</div>
+			<div class="order_nav_items order_nav_check">
+				<img src="../images/index_footer_my_b.png" alt="my">
+				<p>我的</p>
+			</div>
 		</div>
 		<article>
 			<ul class="order_list">
@@ -37,10 +61,10 @@
 				<li>
 					<a href="order_payment.html"><span>待付款</span></a>
 				</li>
-				<li >
+				<li>
 					<a href="order_deliver.html"><span>待发货</span></a>
 				</li>
-				<li >
+				<li>
 					<a href="order_receipt.html"><span>待收货</span></a>
 				</li>
 				<li>
@@ -54,14 +78,14 @@
 			</div>
 			<div id="order_list_cont">
 				<div class="cont">
-					<div class="whole_store">
+					<div class="whole_store whole_store_order">
 						<div class="shop_merchandise order_merchandise">
 							<span class="order_icon"></span>
 							<span class="product_name">花花公子服饰专营店</span>
-							<span class="forward_key delete_order_sub"></span>
+							<span class="forward_key "></span>
 						</div>
-						<div class="shopcat_commodity">
-							<div class="shopcart_detail shopcart_detail_slip">
+						<div class="shopcat_commodity ">
+							<div class="shopcart_detail ">
 								<div class="shopcart_detail_next">
 									<p class="shopcart_detail_img order_img">
 										<img src="../images/pic.png" />
@@ -85,7 +109,7 @@
 								</div>
 							</div>
 
-							<div class="shopcart_detail shopcart_detail_slip">
+							<div class="shopcart_detail ">
 								<div class="shopcart_detail_next">
 									<p class="shopcart_detail_img order_img">
 										<img src="../images/pic.png" />
@@ -116,6 +140,5 @@
 	</body>
 
 	<script src="../js/goods_cart.js" type="text/javascript" charset="utf-8"></script>
-	
 
 </html>
