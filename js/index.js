@@ -33,7 +33,7 @@ $(function () {
     $(window).scroll(function () {
         var heightTop = $(document).scrollTop();
         opa = heightTop * 0.005;
-        $(".index-search").css("background-color", "rgba(238, 238, 238, " + opa + ")");
+        $(".index-search").css("background-color", "rgba(243, 243, 243, " + opa + ")");
         if(opa == 0) {
             $(".index-search").css("background-color", "rgba(0, 0, 0, .2");
         } else if(opa > 0.5) {
