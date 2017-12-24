@@ -1,0 +1,253 @@
+.search {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: #f0f0f0;
+    transition: .3s ease-in-out;
+    overflow: hidden;
+}
+
+.search.active {
+    height: 100px;
+}
+
+.back-arrow {
+    width: 12%;
+    height: 50px;
+    float: left;
+}
+
+.back-arrow img {
+    width: 30%;
+    margin: 12px auto 0;
+}
+
+.search-input {
+    position: relative;
+    float: left;
+    width: 68.8%;
+    height: 30px;
+    margin: 10px 0 0 15px;
+}
+
+.search-input input {
+    width: 100%;
+    height: 100%;
+    padding-left: 10%;
+    border-radius: 5px;
+    outline-style: none;
+    border: none;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    opacity: 0.8;
+}
+
+.search-input.active input {
+    padding-left: 10%;
+    text-align: left;
+}
+
+.search-input img {
+    position: absolute;
+    top: 8px;
+    left: 43%;
+    width: 5%;
+}
+
+.search-input.active img {
+    left: 3%;
+}
+
+.search-menu {
+    float: left;
+    width: 15%;
+    height: 50px;
+}
+
+.search-menu img {
+    width: 50%;
+    margin: 15px auto 0;
+}
+
+.nav {
+    width: 100%;
+    height: 50px;
+    background-color: rgba(64, 64, 66, 1);
+}
+
+.nav ul li {
+    width: 20%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.nav ul li img {
+    width: 40%;
+    margin: 3px auto 0;
+}
+
+.nav ul li span {
+    color: #fff;
+    font-size: 12px;
+}
+
+.three-nav {
+    width: 92%;
+    height: 30px;
+    margin: 0 auto;
+    border: 1px solid #f00;
+    border-radius: 5px;
+}
+
+.three-nav-items {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    color: #fd2c2d;
+}
+
+.three-nav .midDiv {
+    border: 1px solid #fd2c2d;
+    border-width: 0 1px
+}
+
+.three-nav-items.active {
+    background-color: #f00;
+    color: #fff;
+}
+
+.sequencing {
+    width: 100%;
+    height: 44px;
+    background-color: #fff;
+    margin: 2px 0 3px;
+}
+
+.sequencing-items:first-child {
+    border-left-width: 0;
+}
+
+.sequencing-items {
+    position: relative;
+    width: 25%;
+    height: 44px;
+    float: left;
+    border-left: 1px solid #e5e5e5;
+    text-align: center;
+    line-height: 44px;
+    color: #666;
+}
+
+.sequencing-items.active {
+    color: #f00;
+    border-bottom: 2px solid #f00;
+}
+
+.sequencing-items img {
+    position: absolute;
+    top: 15px;
+    left: 72%;
+    width: 4%;
+}
+
+.sequencing-items:last-child img {
+    top: 16px;
+    left: 68%;
+    width: 13%;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 8px;
+}
+
+.content-title {
+    width: 100%;
+    padding: 12px 4% 7px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.content-title div {
+    float: left;
+    font-size: 16px;
+    color: #fd2c2d;
+}
+
+.content-title div:first-child {
+    color: #666;
+}
+
+.content-title div:last-child {
+    width: 14%;
+    height: 21px;
+    float: right;
+    border: 1px solid #fd2c2d;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 21px;
+}
+
+.content-items {
+    width: 100%;
+    padding: 11px 0 0 4%;
+}
+
+.content-score {
+    position: relative;
+    color: #666;
+    font-size: 14px;
+    padding-bottom: 13px;
+}
+
+.content-score ul {
+    position: absolute;
+    top: 0;
+    left: 12%;
+    padding-left: 0;
+    overflow: hidden;
+}
+
+.content-score ul li {
+    float: left;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: url(../images/index_star.jpg);
+    background-size: 20px;
+    background-position-y: -20px;
+}
+
+.content-score ul li.light {
+    background-position: 0 0;
+}
+
+.content-score ul li a {
+    display: block;
+    width: 100%;
+    padding-top: 27px;
+    overflow: hidden;
+}
+
+.img-box {
+    position: relative;
+    width: 30%;
+    float: left;
+    margin: 0 3% 10px 0;
+}
+
+.img-box div {
+    position: absolute;
+    right: 5px;
+    bottom: 7px;
+    padding: 1px;
+    background-color: rgba(255, 255, 255, .6);
+    font-size: 12px;
+}
