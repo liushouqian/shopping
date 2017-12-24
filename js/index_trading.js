@@ -6,6 +6,7 @@ function scrollNews (obj) {
     });
 }
 function bannerScroll() {
+    console.log(1);
     var bannerItems = $(".banner_items li").length;
     $(".banner_items").css("width", bannerItems*window.screen.width);
     $(".banner_items li").css("width", window.screen.width);
@@ -51,5 +52,8 @@ $(function () {
         $(".search-content").addClass("active");
     }).blur(function () {
         $(".search-content").removeClass("active");
+    });
+    $(".trading-items li").click(function () {
+        $(this).addClass("active").siblings().removeClass("active");
     });
 });
