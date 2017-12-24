@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="cn">
 
 <head>
     <meta charset="UTF-8">
@@ -14,23 +14,44 @@
 
 <body>
     <div class="index-search">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+        <div class="site-logo">
+            <img src="../images/index_site_logo.png">
+        </div>
+        <div class="site">天津</div>
+        <div class="down_arrow">
+            <img src="../images/index_down_arrow.png">
+        </div>
+        <div class="search-content">
+            <input type="text" placeholder="搜索商品名称" />
+            <img src="../images/index_search.png">
+        </div>
+        <div class="message">
+            <img src="../images/index_messge.png">
+        </div>
     </div>
     <div class="index-body">
         <div class="banner">
             <div>
-                <img src="../images/index_banner.png" alt="banner">
+                <ul class="banner_items clearFix">
+                    <li>
+                        <img src="../images/index_banner.png" alt="banner">
+                    </li>
+                    <li>
+                        <img src="../images/index_banner.png" alt="banner">
+                    </li>
+                    <li>
+                        <img src="../images/index_banner.png" alt="banner">
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="nav clearFix">
-            <div class="nav-items">
-                <img src="../images/index_nav_brand.png" alt="品牌">
-                <span>品牌</span>
-            </div>
+            <a href="../html/index_brand.html">
+                <div class="nav-items">
+                    <img src="../images/index_nav_brand.png" alt="品牌">
+                    <span>品牌</span>
+                </div>
+            </a>
             <div class="nav-items">
                 <img src="../images/index_nav_shop.png" alt="网店">
                 <span>网店</span>
@@ -69,16 +90,29 @@
                 <span>资讯</span>
             </div>
             <div class="infomation-right">
-                <div>
-                    <span class="infomation-right-title">资讯标题</span>
-                    <span class="infomation-right-content">商城双12促销活动</span>
-                    <span class="infomation-right-time">2017-11-19 10:12:23</span>
-                </div>
-                <div>
-                    <span class="infomation-right-title">资讯标题</span>
-                    <span class="infomation-right-content">商城双12促销活动</span>
-                    <span class="infomation-right-time">2017-11-19 10:12:23</span>
-                </div>
+                <ul style="margin-top: 0px;">
+                    <li>
+                        <div class="info-list">
+                            <span class="infomation-right-title">资讯标题</span>
+                            <span class="infomation-right-content">商城双12促销活动</span>
+                            <span class="infomation-right-time">2017-11-19 10:12:23</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info-list">
+                            <span class="infomation-right-title">资讯标题</span>
+                            <span class="infomation-right-content">商城双12促销活动</span>
+                            <span class="infomation-right-time">2017-11-19 10:12:23</span>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="info-list">
+                            <span class="infomation-right-title">资讯标题</span>
+                            <span class="infomation-right-content">商城双12促销活动</span>
+                            <span class="infomation-right-time">2017-11-19 10:12:23</span>
+                        </div>
+                    </li>
+                </ul>
             </div>
         </div>
         <div class="active">
@@ -247,5 +281,7 @@
         </div>
     </div>
 </body>
+<script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/index.js"></script>
 
 </html>

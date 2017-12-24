@@ -22,42 +22,6 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
-input[type=radio] {
-    display: inline-block;
-    vertical-align: middle;
-    width: 20px;
-    height: 20px;
-    -webkit-appearance: none;
-    background-color: transparent;
-    border: 0;
-    outline: 0 !important;
-    line-height: 20px;
-    color: #d8d8d8;
-}
-
-input[type=radio]:after {
-    content: "";
-    display: block;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    text-align: center;
-    line-height: 14px;
-    font-size: 16px;
-    color: #fff;
-    border: 3px solid #ddd;
-    background-color: #fff;
-    box-sizing: border-box;
-}
-
-input[type=radio]:checked:after {
-    content: "L";
-    transform: matrix(-0.766044, -0.642788, -0.642788, 0.766044, 0, 0);
-    -webkit-transform: matrix(-0.766044, -0.642788, -0.642788, 0.766044, 0, 0);
-    border-color: #099414;
-    background-color: #099414;
-}
-
 
 /************************************************************************************
 RESET
@@ -227,28 +191,6 @@ sub {
     vertical-align: text-bottom;
 }
 
-
-/*.red { color:#E22C37;}*/
-
-.red {
-    color: #E22C37;
-    background: #FFFFFF;
-}
-
-.mt50 {
-    width: 100%;
-    height: 45px;
-    overflow: hidden;
-}
-
-.gray {
-    color: #999;
-}
-
-.orange {
-    color: #ffa800;
-}
-
 h1,
 h2,
 h3,
@@ -301,27 +243,42 @@ img {
     z-index: 1;
 }
 
-
-/*check,radio*/
-
-input.check_txt[type='checkbox'] {
-    display: none;
+a {
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-focus: none;
+    -moz-user-select: none;
 }
 
-input.check_txt[type='checkbox']+label {
-    display: block;
-    float: left;
-    -moz-appearance: none;
-    -webkit-appearance: none;
-    width: 20px;
-    height: 20px;
-    background: #fff;
-    border: 2px solid #cecece;
-    border-radius: 3px;
-    cursor: pointer;
+a,
+a:hover,
+a:active,
+a:visited,
+a:link,
+a:focus {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    outline: none;
+    background: none;
+    text-decoration: none;
 }
 
-input.check_txt[type='checkbox']:checked+label {
-    background: #f0f0f0 url(../images/check.png) no-repeat center center;
-    background-size: 80%;
+::selection {
+    background: #FFF;
+    color: #333;
+}
+
+::-moz-selection {
+    background: #FFF;
+    color: #333;
+}
+
+::-webkit-selection {
+    background: #FFF;
+    color: #333;
+}
+
+input {
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
 }
