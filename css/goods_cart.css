@@ -727,7 +727,7 @@ hr{
 	padding: 10px;
 }
 .page_head_icon3{
-	background: url(../images/invoice_two.png) no-repeat center;
+	background: url(../images/wallet.png) no-repeat center;
 	background-size: 100%;
 	padding: 10px;
 }
@@ -787,9 +787,11 @@ hr{
 }
 /*flie样式修改*/
 .file {
+    top: 19px;
+    opacity: 0;
+    width: 35px;
+    height: 50px;
     border-radius: 50px;
-    width: 10px;
-    height: 26px;
     position: relative;
     display: inline-block;
     background: #D0EEFF;
@@ -820,6 +822,14 @@ hr{
     margin: 25px;
     font-size: 18px;
 }
+.authentication_car1{
+	background: url(../images/zhengmian.png) no-repeat center;
+	background-size: 100%;
+}
+.authentication_car2{
+	background: url(../images/beimian.png) no-repeat center;
+	background-size: 100%;
+}
 .authentication_car .authentication_cart{
     width: 65%;
     background-color: #ffff;
@@ -827,8 +837,7 @@ hr{
     height: 160px;
     text-align: center;
     line-height: 160px;
-    border-radius: 15px;
-    border: 2px solid #FD2C2D;
+    border-radius: 5px;
 }
 .authentication_car .file img{
 	position: absolute;
