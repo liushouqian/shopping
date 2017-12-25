@@ -163,7 +163,8 @@
     position: relative;
     width: 100%;
     text-align: center;
-    margin-bottom: 9px;
+    padding-bottom: 9px;
+    background-color: #fff;
 }
 
 .active-title-line {
@@ -185,7 +186,7 @@
 
 .commodities {
     width: 100%;
-    padding: 10px 0 10px 4%;
+    padding: 10px 4%;
     margin-bottom: 5px;
     background-color: #fff;
 }
@@ -193,43 +194,9 @@
 .more {
     position: absolute;
     top: 4px;
-    right: 4%;
+    right: 0;
     color: #999;
     font-size: 12px;
-}
-
-.commodities-content {
-    width: 45%;
-    float: left;
-    margin-right: 5%;
-}
-
-.commodities-content-des {
-    width: 100%;
-    margin: 8px 0 10px;
-    color: #999;
-    font-size: 14px;
-}
-
-.commodities-content-line {
-    width: 72%;
-    height: 1px;
-    background-color: #999;
-    margin-bottom: 12px;
-}
-
-.commodities-content-price {
-    float: left;
-    color: #ff5959;
-    font-size: 16px;
-}
-
-.commodities-content-unprice {
-    float: left;
-    margin: 2px 0 0 5px;
-    color: #999;
-    font-size: 12px;
-    text-decoration: line-through;
 }
 
 .trading-items {
@@ -240,7 +207,7 @@
 .trading-items li {
     float: left;
     width: 17%;
-    margin: 0 2.5% 10px 0;
+    margin: 0 1.5% 10px 1.5%;
     text-align: center;
     border: 1px solid #c9c9c9;
     line-height: 30px;
@@ -251,4 +218,201 @@
 .trading-items li.active {
     border: 1px solid #fc1b1b;
     color: #fc1b1b;
+}
+
+.commodities-active {
+    padding: 12px 0;
+    border-top: 1px solid #e5e5e5;
+    margin-top: -1px;
+}
+
+.commodities-active-left {
+    width: 35%;
+    float: left;
+    margin-right: 5%;
+    border-radius: 3px;
+}
+
+.commodities-active-right {
+    position: relative;
+    width: 60%;
+    float: left;
+    padding-right: 4%;
+}
+
+.commodities-active-firstRol {
+    margin-bottom: 6.5px;
+}
+
+.commodities-active-firstRol div {
+    float: left;
+}
+
+.commodities-active-firstRol-logo {
+    width: 12.94%;
+    height: 25px;
+    margin-right: 4.4%;
+    background-color: #eee;
+}
+
+.commodities-active-firstRol-title {
+    font-size: 14px;
+    color: #333;
+    line-height: 25px;
+}
+
+.commodities-active-firstRol-score {
+    float: right!important;
+    font-size: 10px;
+    color: #e93b3d;
+}
+
+.commodities-active-secondRol-site {
+    float: left;
+    width: 5.7%;
+}
+
+.commodities-active-secondRol-city {
+    float: left;
+    margin: 1px 0 0 8px;
+    font-size: 12px;
+    color: #666;
+    line-height: 1;
+}
+
+.commodities-active-thirdRol {
+    font-size: 16px;
+    color: #666;
+}
+
+.commodities-active-fourthRol {
+    font-size: 14px;
+    color: #666;
+}
+
+.commodities-active-fifthRol {
+    font-size: 12px;
+    color: #e93b3d;
+}
+
+.commodities-active-arrow-right {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    width: 5.8%;
+    margin-top: -11px;
+}
+
+.commodities-active1 {
+    width: 49%;
+    float: left;
+    margin: 0 0.5%;
+    border: 1px solid #c9c9c9;
+}
+
+.commodities-active1-firstRol {
+    position: relative;
+    padding: 3px 0 0 3px;
+    margin-bottom: 8px;
+}
+
+.commodities-active1-firstRol-logo {
+    width: 15.24%;
+    height: 25px;
+    float: left;
+    margin-right: 3%;
+    background-color: #eee;
+}
+
+.commodities-active1-firstRol-title {
+    font-size: 12px;
+    color: #333;
+    line-height: 25px;
+}
+
+.commodities-active1-firstRol-score {
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    font-size: 8px;
+    color: #e93b3d;
+}
+
+.commodities-active2-secondRol {
+    padding-left: 3%;
+    margin-bottom: 10px;
+}
+
+.commodities-active2-thirdRol {
+    font-size: 15px;
+    color: #666;
+    line-height: 1;
+    margin-bottom: 12px;
+}
+
+.commodities-active2-fourthRol {
+    font-size: 13px;
+    color: #666;
+    line-height: 1;
+    margin-bottom: 7px;
+}
+
+.commodities-active2-fifthRol {
+    font-size: 11px;
+    color: #e93b3d;
+    line-height: 1;
+    margin: 13px 0 18px;
+}
+
+.commodities-active2-lookDetail {
+    width: 52%;
+    border: 1px solid #dd5d5e;
+    line-height: 34px;
+    color: #dd5d5e;
+    font-size: 11px;
+    text-align: center;
+    margin: 0 auto 15px;
+}
+
+.commodities-active3-fourth {
+    width: 96%;
+    margin: 0 auto 10px;
+}
+
+.commodities-active3-lookDetail {
+    float: left;
+    width: 38%;
+    border: 1px solid #dd5d5e;
+    line-height: 25px;
+    color: #dd5d5e;
+    font-size: 9px;
+    text-align: center;
+    margin-left: 0 0 13px 5px;
+}
+
+.commodities-active3-goLucky {
+    float: right;
+    width: 38%;
+    border: 1px solid #dd5d5e;
+    line-height: 25px;
+    color: #dd5d5e;
+    font-size: 9px;
+    text-align: center;
+    margin: 0 5px 13px 0;
+}
+
+.commodities-active3 {
+    width: 20%;
+    float: left;
+    margin: 0 2.5% 12px;
+    text-align: center;
+}
+
+.commodities-active3 img {
+    width: 100%;
+}
+
+.commodities-active3 span {
+    color: #666;
+    font-size: 10px;
 }
