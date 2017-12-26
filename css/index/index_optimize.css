@@ -1,0 +1,261 @@
+.index-search {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 44px;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.index-search.active .site,
+.index-search.active .search-content input::-webkit-input-placeholder {
+    color: #444;
+}
+
+.site-logo {
+    position: absolute;
+    top: 11px;
+    left: 2%;
+    width: 4%;
+}
+
+.site {
+    position: absolute;
+    left: 6.5%;
+    width: 16%;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+    line-height: 44px;
+}
+
+.down_arrow {
+    position: absolute;
+    top: 19px;
+    left: 23%;
+    width: 3.5%;
+}
+
+.search-content {
+    position: absolute;
+    top: 5.5px;
+    left: 27.5%;
+    width: 62%;
+    height: 30px;
+}
+
+.search-content img {
+    position: absolute;
+    top: 8px;
+    left: 26%;
+    width: 6%;
+    display: block;
+}
+
+.search-content.active img {
+    display: none;
+}
+
+.message {
+    position: absolute;
+    top: 12px;
+    left: 93%;
+    width: 4.5%;
+}
+
+.search-content input {
+    width: 100%;
+    height: 100%;
+    padding-left: 10%;
+    border-radius: 5px;
+    outline-style: none;
+    border: none;
+    text-align: center;
+    font-size: 12px;
+    color: #666;
+    opacity: 0.8;
+}
+
+.search-content input::-webkit-input-placeholder {
+    color: #aaa;
+}
+
+.search-content.active input {
+    text-align: left;
+}
+
+.index-body {
+    position: relative;
+    width: 100%;
+}
+
+.banner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner ul {
+    position: relative;
+    left: 0;
+    transition: all 1s ease-in-out;
+}
+
+.banner ul li {
+    float: left;
+}
+
+.infomation {
+    position: relative;
+    width: 100%;
+    height: 56px;
+    background-color: #fff;
+    margin: 6px 0;
+    overflow: hidden;
+}
+
+.infomation-left {
+    width: 11%;
+    padding: 7px 8px;
+    float: left;
+    background-color: #e5e5e5;
+    color: #fc1b1b;
+}
+
+.infomation-left img {
+    width: 80%;
+    margin: 0 auto 5px;
+    display: block;
+}
+
+.infomation-right {
+    width: 89%;
+    float: left;
+    overflow: hidden;
+    padding-left: 3px;
+}
+
+.infomation-right div {
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 5px 0 5px 10px;
+    border-top: 1px solid #b5b5b5;
+    margin: -1px 0 2px;
+}
+
+.infomation-right span {
+    width: 33.33%;
+}
+
+.infomation-right-title {
+    font-size: 12px;
+    color: #333;
+}
+
+.infomation-right-content,
+.infomation-right-time {
+    font-size: 10px;
+    color: #333;
+}
+
+.active-title {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 9px;
+    background-color: #fff;
+}
+
+.active-title span {
+    position: relative;
+    color: #ff5959;
+    background: #fff;
+    font-size: 18px;
+}
+
+.commodities {
+    width: 100%;
+    padding: 10px 4%;
+    margin-bottom: 5px;
+    background-color: #fff;
+}
+
+.more {
+    position: absolute;
+    top: 8px;
+    right: 0;
+    color: #999;
+    font-size: 12px;
+    line-height: 1;
+}
+
+.more img {
+    position: absolute;
+    top: -5px;
+    left: -45%;
+    width: 40%;
+    display: inline-block;
+}
+
+.optimize-items {
+    position: relative;
+    float: left;
+    width: 48%;
+    margin: 0 1%;
+}
+
+.optimize-items>img {
+    border-radius: 3px;
+}
+
+.optimize-items-title {
+    width: 100%;
+    padding: 8.5px 5px 10px;
+    color: #999;
+    font-size: 13px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.optimize-items-price {
+    font-size: 15px;
+    color: #ff5959;
+    text-decoration: line-through;
+    margin: 12px 0;
+}
+
+.optimize-items-now {
+    margin-bottom: 13.5px;
+}
+
+.optimize-items-now img {
+    float: left;
+    width: 13%;
+    margin-right: 2%;
+}
+
+.optimize-items-nowPrice {
+    float: left;
+    font-size: 13px;
+    line-height: 23px;
+    color: #666;
+    margin-right: 10%;
+}
+
+.optimize-items-btn {
+    float: left;
+    width: 35%;
+    height: 23px;
+    border-radius: 3px;
+    background-color: #ff2800;
+    color: #fff;
+    line-height: 23px;
+    text-align: center;
+}
+
+.rank {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 19.5%;
+}
