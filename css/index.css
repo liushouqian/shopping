@@ -9,7 +9,7 @@
 
 .index-search.active .site,
 .index-search.active .search-content input::-webkit-input-placeholder {
-    color: #444;
+    color: #666;
 }
 
 .site-logo {

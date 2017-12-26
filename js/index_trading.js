@@ -52,4 +52,7 @@ $(function () {
     }).blur(function () {
         $(".search-content").removeClass("active");
     });
+    $(".trading-items li").click(function () {
+        $(this).addClass("active").siblings().removeClass("active");
+    });
 });
