@@ -126,4 +126,8 @@ $(function() {
     $(this).closest('input[type=file]').trigger('click');
 })
 	
+//	日历
+	$('#selectDate').on('click', function(e) {
+    	$('.mask').show();
 })
+});

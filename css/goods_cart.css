@@ -175,7 +175,7 @@ hr{
 	font-size: 14px;
 }
 .price_setting input{
-    width: 15%;
+    width: 30%;
     height: 23px;
     text-align: center;
     border: 1px solid #c9c9c9;
@@ -184,11 +184,15 @@ hr{
     border-right: 0px;
 }
 .price_setting button{
-    width: 12%;
+    width: 30%;
     height: 25px;
     background-color: #fff;
     border: 1px solid #c9c9c9;
     outline: none;
+}
+.number_and{
+	width: 50%;
+	float: right;
 }
 .price_setting span{
 	font-size: 12px;
@@ -890,6 +894,210 @@ hr{
     text-align: center;
     color: #fff;
 }
+.whole_store_personal .system_mess{
+	width: 100%;
+    overflow: hidden;
+}
+.page_head_message{
+    width: 65px;
+    margin-left: 15px;
+}
+.page_head_message .page_txt_cir{
+	background-color:  #E93B3D;
+	top: 7px;
+    left: 65px;	
+    text-align: center;
+}
+.page_head_message .page_txt_cir .page_txt_number{
+	color: #FFFFFF;
+}
+.page_head_message img{
+    width: 100%;
+}
+.page_head_messag{
+	margin-left: 10px;
+    width: 70%;
+    text-align: left;
+    font-size: 18px;
+}
+.page_head_messag .forward_key{
+    padding: 14px 5px;
+    background: url(../images/arrow_right.png) no-repeat 0 11px;
+    background-size: 100%;
+}
+.whole_store_personal .page_fist_allorder .page_head_messag .page_fist_deep{
+	color: #333333;
+	font-weight: bold;
+}
+.page_messag_time{
+    margin-left: 10%;
+    font-size: 14px;
+}
+.page_messag_shall{
+    line-height: 16px;
+    margin-left: 10px;
+}
+.against .order_list li{
+	width: 18%;
+	margin-left: 5px;
+}
+.assets_title{
+    background-color: #fff;
+    line-height: 60px;
+    text-align: center;
+}
+.assets_title span{
+    text-align: center;
+    margin: 0 auto;
+    line-height: 50px;
+    height: 35px;
+    padding: 5px 20px;
+    border-bottom: 1px solid #FF3535;
+    border-top: 1px solid #FF3535;
+}
+.assets_cont{
+    width: 90%;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 3px 3px 20px #ccc;
+    text-align: center;
+    line-height: 60px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.assets_cont_left{
+    width: 49%;
+}
+.assets_cont_right{
+	width: 50%;
+}
+.assets_cont_right p{
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.assets_cont_left p{
+    border-right: 1px solid #f6f6f6;
+    border-bottom: 1px solid #f6f6f6;
+}
+.assets_more{
+    font-size: 14px;
+    line-height: 80px;
+    margin-right: 20px;
+}
+.assets_conta{
+	width: 90%;
+	margin: 0 auto;
+    overflow: hidden;
+}
+.assets_conta .assets_cont{
+	width: 45%;
+}
+.assets_cont_name p{
+	border-bottom: 1px solid #f6f6f6;
+}
+.assets_cont_name .float_left p{
+	border-right: 0px solid #f6f6f6;
+    border-bottom: 0px solid #f6f6f6;
+}
+.assets_conta .assets_cont_left,.assets_conta .assets_cont_right{
+	font-size: 12px;
+}
+.assets_conta  .priceColor_red b{
+	font-size: 14px;
+}
+.assets_coupon{
+	background-color: #fff;
+    padding-bottom: 60px;
+}
+.assets_coupon .page_fist_txt li{
+	border-bottom: 1px solid #F6F6F6;
+}
+.assets_coupon   strong{
+    display: block;
+    float: left;
+    border-left: 1px solid #f6f6f6;
+    height: 89px;
+    margin-left: 4px;
+    margin-right: 4px;
+    margin-top: -15px;
+}
+
+.transaction_icon{
+	background: url(../images/rili.png) no-repeat center;
+	background-size: 100%;
+	padding: 15px;
+    margin: 10px;
+}
+.transaction_icon2{
+	background: url(../images/zhifubao.png) no-repeat center;
+	background-size: 100%;
+	padding: 15px;
+	margin-right: 5px;
+}
+.transaction{
+    overflow: hidden;
+    background-color: #fff;
+    line-height: 50px;
+    text-indent: 10px;
+}
+
+.transaction_order{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.transaction_table{
+	width: 100%;
+	line-height: 45px;
+}
+.transaction_table tr{
+	background-color: #FFFFFF;
+	display: flex;
+}
+.transaction_table tr th{
+	color: #666666;
+	font-weight: normal;
+}
+.transaction_order_xiang .float_right{
+	margin-right: 10px;
+	color: #999999;
+}
+.transaction_order_xiang hr{
+	width: 95%;
+}
+.transaction_xiang{
+	width: 100%;
+	overflow: hidden;
+}
+.transaction_xiangqing{
+	width: 100%;
+	overflow: hidden;
+}
+.transaction_xiangqing1{
+	width: 100%;
+	font-size: 18px;
+	overflow: hidden;
+}
+.package_car{
+    width: 90%;
+    margin: 0 auto;
+    background-color: #fff;
+    line-height: 50px;
+    text-align: center;
+    padding-bottom: 57%;
+}
+.package_car .package_car_clsoe{
+    text-align: left;
+    margin-left: 10%;
+    color: #FF0000;
+    margin-bottom: 20px;
+    padding-top: 30px;
+}
+.package_car p img{
+    width: 125px;
+    height: 125px;
+}
+
+
 
 
 
@@ -916,4 +1124,8 @@ hr{
     .page_head_box{
     	width: 100%;
     }
+    .order_list li a{
+    	font-size: 12px;
+    }
 }
+
