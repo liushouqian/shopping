@@ -1,93 +1,17 @@
-.groupon-top {
-    width: 100%;
-    padding: 8px 0;
-    background-color: #fff;
-}
-
-.top-nav {
-    padding: 0 20%;
-    margin-bottom: 8px;
-}
-
-.top-nav div:first-child {
-    border-right-width: 0px;
-    border-radius: 2.5px 0 0 2.5px;
-}
-
-.top-nav-left,
-.top-nav-right {
-    float: left;
-    width: 50%;
-    height: 30px;
-    color: #ff0002;
-    border: 1px solid #ff0002;
-    border-radius: 0 2.5px 2.5px 0;
-    background-color: #fff;
-    text-align: center;
-    line-height: 28px;
-}
-
-.top-nav-left.active,
-.top-nav-right.active {
-    color: #fff;
-    background-color: #fd5253;
-}
-
-.time-to-time {
-    width: 80%;
-    height: 20px;
-    margin: 0 auto 14px;
-    line-height: 20px;
-    text-align: center;
-    color: #333;
-    border: 1px solid #f19149;
-    background-color: #ffedc1;
-}
-
-.time-to-end {
-    position: relative;
-    width: 100%;
-    height: 15px;
-    padding-left: 5%;
-    margin: 0 0 8px 0;
-    color: #fc5052;
-    font-size: 12px;
-    text-align: center;
-    line-height: 15px;
-}
-
-.time-to-end img {
-    position: absolute;
-    top: 0;
-    left: 33%;
-    width: 3.467%;
-}
-
-.end-time {
-    width: 100%;
-    text-align: center;
-    line-height: 1;
-    color: #fe5052;
-    font-size: 14px;
-}
-
-.end-time span {
-    color: #333;
-}
-
 .groupon-nav {
     width: 100%;
-    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .groupon-nav-items {
     position: relative;
     width: 25%;
+    height: 44px;
     float: left;
+    line-height: 44px;
     background-color: #fff;
     border-left: 1px solid #e5e5e5;
     border-bottom: 2px solid transparent;
-    line-height: 44px;
     text-align: center;
     color: #666;
 }
@@ -99,13 +23,6 @@
 .groupon-nav-items.active {
     border-bottom: 2px solid #f00;
     color: #fd2c2d;
-}
-
-.groupon-nav-items img {
-    position: absolute;
-    top: 18px;
-    left: 69%;
-    width: 9%;
 }
 
 .optimize-items {
@@ -177,16 +94,4 @@
     line-height: 1;
     color: #ff5959;
     margin-right: 6%;
-}
-
-.groupon-status {
-    float: left;
-    font-size: 12px;
-    color: #fd5253;
-}
-
-.groupon-people-join {
-    float: right;
-    font-size: 12px;
-    color: #999;
 }
