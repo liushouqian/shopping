@@ -161,30 +161,101 @@
     width: 13%;
 }
 
-.content {
+.content-all {
+    width: 100%;
+    padding: 18px 0 16px 13px;
+    background-color: #fff;
+    margin-bottom: 5px;
+    display: none;
+}
+.content-all.active {
+    display: block;
+}
+
+.content-all img {
+    width: 24%;
+    float: left;
+    margin-right: 9.5px;
+}
+
+.content-all .content-title {
+    float: left;
+    width: 73%;
+    padding-right: 23%;
+    color: #333333;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.content-all .content-title span {
+    color: #ff2f39;
+    font-size: 15px;
+}
+
+.content-all .price1 {
+    font-size: 12px;
+    color: #ff2f39;
+    float: left;
+    margin-right: 9.5px;
+    line-height: 19px;
+}
+
+.content-all .price2 {
+    font-size: 8px;
+    color: #666;
+    float: left;
+    line-height: 19px;
+    margin-right: 25px;
+}
+
+.content-all .sale {
+    color: #666666;
+    font-size: 15px;
+    float: left;
+    line-height: 15px;
+}
+
+.content-all .saleNum {
+    color: #ff2f39;
+    font-size: 15px;
+    float: left;
+    line-height: 15px;
+}
+
+
+
+
+.content-shop {
+    display: none;
+}
+.content-shop.active {
+    display: block;
+}
+
+.content-shop .content {
     position: relative;
     width: 100%;
     background-color: #fff;
     margin-bottom: 8px;
 }
 
-.content-title {
+.content-shop .content-title {
     width: 100%;
     padding: 12px 4% 7px;
     border-bottom: 1px solid #e5e5e5;
 }
 
-.content-title div {
+.content-shop .content-title div {
     float: left;
     font-size: 16px;
     color: #fd2c2d;
 }
 
-.content-title div:first-child {
+.content-shop .content-title div:first-child {
     color: #666;
 }
 
-.content-title div:last-child {
+.content-shop .content-title div:last-child {
     width: 14%;
     height: 21px;
     float: right;
@@ -195,19 +266,19 @@
     line-height: 21px;
 }
 
-.content-items {
+.content-shop .content-items {
     width: 100%;
     padding: 11px 0 0 4%;
 }
 
-.content-score {
+.content-shop .content-score {
     position: relative;
     color: #666;
     font-size: 14px;
     padding-bottom: 13px;
 }
 
-.content-score ul {
+.content-shop .content-score ul {
     position: absolute;
     top: 0;
     left: 12%;
@@ -215,35 +286,137 @@
     overflow: hidden;
 }
 
-.content-score ul li {
+.content-shop .content-score ul li {
     float: left;
     list-style: none;
     width: 20px;
     height: 20px;
-    background: url(../images/index_star.jpg);
+    background: url(../../images/index_star.jpg);
     background-size: 20px;
     background-position-y: -20px;
 }
 
-.content-score ul li.light {
+.content-shop .content-score ul li.light {
     background-position: 0 0;
 }
 
-.content-score ul li a {
+.content-shop .content-score ul li a {
     display: block;
     width: 100%;
     padding-top: 27px;
     overflow: hidden;
 }
 
-.img-box {
+.content-shop .img-box {
     position: relative;
     width: 30%;
     float: left;
     margin: 0 3% 10px 0;
 }
 
-.img-box div {
+.content-shop .img-box div {
+    position: absolute;
+    right: 5px;
+    bottom: 7px;
+    padding: 1px;
+    background-color: rgba(255, 255, 255, .6);
+    font-size: 12px;
+}
+
+
+
+
+
+.content-outlet {
+    display: none;
+}
+.content-outlet.active {
+    display: block;
+}
+
+.content-outlet .content {
+    position: relative;
+    width: 100%;
+    background-color: #fff;
+    margin-bottom: 8px;
+}
+
+.content-outlet .content-title {
+    width: 100%;
+    padding: 12px 4% 7px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.content-outlet .content-title div {
+    float: left;
+    font-size: 16px;
+    color: #fd2c2d;
+}
+
+.content-outlet .content-title div:first-child {
+    color: #666;
+}
+
+.content-outlet .content-title div:last-child {
+    width: 14%;
+    height: 21px;
+    float: right;
+    border: 1px solid #fd2c2d;
+    border-radius: 5px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 21px;
+}
+
+.content-outlet .content-items {
+    width: 100%;
+    padding: 11px 0 0 4%;
+}
+
+.content-outlet .content-score {
+    position: relative;
+    color: #666;
+    font-size: 14px;
+    padding-bottom: 13px;
+}
+
+.content-outlet .content-score ul {
+    position: absolute;
+    top: 0;
+    left: 12%;
+    padding-left: 0;
+    overflow: hidden;
+}
+
+.content-outlet .content-score ul li {
+    float: left;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: url(../../images/index_star.jpg);
+    background-size: 20px;
+    background-position-y: -20px;
+}
+
+.content-outlet .content-score ul li.light {
+    background-position: 0 0;
+}
+
+.content-outlet .content-score ul li a {
+    display: block;
+    width: 100%;
+    padding-top: 27px;
+    overflow: hidden;
+}
+
+.content-outlet .img-box {
+    position: relative;
+    width: 30%;
+    float: left;
+    margin: 0 3% 10px 0;
+}
+
+.content-outlet .img-box div {
     position: absolute;
     right: 5px;
     bottom: 7px;
