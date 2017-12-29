@@ -1,0 +1,192 @@
+.groupon-top {
+    width: 100%;
+    padding: 8px 0;
+    background-color: #fff;
+}
+
+.top-nav {
+    padding: 0 20%;
+    margin-bottom: 8px;
+}
+
+.top-nav div:first-child {
+    border-right-width: 0px;
+    border-radius: 2.5px 0 0 2.5px;
+}
+
+.top-nav-left,
+.top-nav-right {
+    float: left;
+    width: 50%;
+    height: 30px;
+    color: #ff0002;
+    border: 1px solid #ff0002;
+    border-radius: 0 2.5px 2.5px 0;
+    background-color: #fff;
+    text-align: center;
+    line-height: 28px;
+}
+
+.top-nav-left.active,
+.top-nav-right.active {
+    color: #fff;
+    background-color: #fd5253;
+}
+
+.time-to-time {
+    width: 80%;
+    height: 20px;
+    margin: 0 auto 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #333;
+    border: 1px solid #f19149;
+    background-color: #ffedc1;
+}
+
+.time-to-end {
+    position: relative;
+    width: 100%;
+    height: 15px;
+    padding-left: 5%;
+    margin: 0 0 8px 0;
+    color: #fc5052;
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.time-to-end img {
+    position: absolute;
+    top: 0;
+    left: 33%;
+    width: 3.467%;
+}
+
+.end-time {
+    width: 100%;
+    text-align: center;
+    line-height: 1;
+    color: #fe5052;
+    font-size: 14px;
+}
+
+.end-time span {
+    color: #333;
+}
+
+.groupon-nav {
+    width: 100%;
+    margin-top: 5px;
+}
+
+.groupon-nav-items {
+    position: relative;
+    width: 25%;
+    float: left;
+    background-color: #fff;
+    border-left: 1px solid #e5e5e5;
+    border-bottom: 2px solid transparent;
+    line-height: 44px;
+    text-align: center;
+    color: #666;
+}
+
+.groupon-nav-items:first-child {
+    border-left-width: 0;
+}
+
+.groupon-nav-items.active {
+    border-bottom: 2px solid #f00;
+    color: #fd2c2d;
+}
+
+.groupon-nav-items img {
+    position: absolute;
+    top: 18px;
+    left: 69%;
+    width: 9%;
+}
+
+.optimize-items {
+    position: relative;
+    width: 50%;
+    padding: 10px 7px 0;
+    margin-bottom: 10px;
+    float: left;
+    background-color: #fff;
+}
+
+.optimize-items>img {
+    border-radius: 3px;
+}
+
+.groupon-mask {
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    left: 7px;
+    height: 173px;
+    background-color: rgba(0, 0, 0, .5);
+    color: #fff;
+    font-size: 15px;
+    line-height: 173px;
+    text-align: center;
+    display: none;
+}
+
+.groupon-mask.active {
+    display: block;
+}
+
+.discounts {
+    position: absolute;
+    top: 10px;
+    right: 7px;
+    width: 50px;
+    height: 20px;
+    background-color: #ff5959;
+    color: #fff;
+    font-size: 15px;
+    text-align: center;
+    line-height: 20px;
+}
+
+.optimize-items-title {
+    width: 100%;
+    padding: 8.5px 5px 10px;
+    color: #999;
+    font-size: 13px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.optimize-items-price {
+    font-size: 10px;
+    color: #666;
+    text-decoration: line-through;
+    margin: 12px 0;
+}
+
+.optimize-items-now {
+    margin-bottom: 13.5px;
+}
+
+.optimize-items-nowPrice {
+    float: left;
+    font-size: 15px;
+    line-height: 1;
+    color: #ff5959;
+    margin-right: 6%;
+}
+
+.groupon-status {
+    float: left;
+    font-size: 12px;
+    color: #fd5253;
+}
+
+.groupon-people-join {
+    float: right;
+    font-size: 12px;
+    color: #999;
+}
