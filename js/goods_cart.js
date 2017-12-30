@@ -130,4 +130,35 @@ $(function() {
 	$('#selectDate').on('click', function(e) {
     	$('.mask').show();
 })
+//	发票
+	
+	$('#company_invoicea').on('click', function(e) {
+		$(this).addClass('me_package2').siblings().removeClass('me_package2');
+    	$('#company_invoice').show();
+    	$('#personal_invoice').hide();
+})
+	$('#personal_invoicea').on('click', function(e) {
+		$(this).addClass('me_package2').siblings().removeClass('me_package2');
+    	$('#company_invoice').hide();
+    	$('#personal_invoice').show();
+})
+//	抬头发票
+	$('#rise_invoicea').on('click', function(e) {
+			$(this).addClass('me_package2').siblings().removeClass('me_package2');
+	    	$('.me_invoice').hide();
+	    	$('.rise_invoice').show();
+    	$('.me_cart_invoice').show();
+	})
+	$('#me_invoicea').on('click', function(e) {
+		$(this).addClass('me_package2').siblings().removeClass('me_package2');
+    	$('.me_invoice').show();
+    	$('.rise_invoice').hide();
+    	$('.me_cart_invoice').hide();
+	})
+//	关注
+	
+	$('.shop_xiangqing_icon').on('click', function(e) {
+		$(this).toggleClass('shop_xiangqing_icon1')
+	})
+//	关注
 });
