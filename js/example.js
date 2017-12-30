@@ -113,7 +113,7 @@ selectContactDom.bind('click', function() {
 	var twoLevelId = showContactDom.attr('data-city-code');
 	var threeLevelId = showContactDom.attr('data-district-code');
 	var iosSelect = new IosSelect(3, [iosProvinces, iosCitys, iosCountys], {
-		title: '地址选择',
+		title: '',
 		itemHeight: 35,
 		relation: [1, 1, 0, 0],
 		callback: function(selectOneObj, selectTwoObj, selectThreeObj) {

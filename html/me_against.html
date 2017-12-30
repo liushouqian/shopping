@@ -10,7 +10,7 @@
 		<title>我的兑单</title>
 		<link rel="stylesheet" type="text/css" href="../css/goods_cart.css" />
 		<script src="../js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
-		
+
 	</head>
 
 	<body>
@@ -20,98 +20,321 @@
 			<span class="menu_icon"></span>
 		</header>
 		<div style="height: 60px;"></div>
-		
+
 		<div class="order_nav" id="order_nav">
 			<a href="index.html">
-			<div class="order_nav_items">
-				<img src="../images/index_footer_home_a.png" alt="home">
-				<p>首页</p>
-			</div>
+				<div class="order_nav_items">
+					<img src="../images/index_footer_home_a.png" alt="home">
+					<p>首页</p>
+				</div>
 			</a>
 			<a href="#">
-			<div class="order_nav_items">
-				<img src="../images/index_footer_class_b.png" alt="class">
-				<p>分类</p>
-			</div>
+				<div class="order_nav_items">
+					<img src="../images/index_footer_class_b.png" alt="class">
+					<p>分类</p>
+				</div>
 			</a>
 			<a href="#">
-			<div class="order_nav_items">
-				<img src="../images/index_footer_search_b.png" alt="search">
-				<p>搜索</p>
-			</div>
+				<div class="order_nav_items">
+					<img src="../images/index_footer_search_b.png" alt="search">
+					<p>搜索</p>
+				</div>
 			</a>
 			<a href="shopping_cart.html">
-			<div class="order_nav_items ">
-				<img src="../images/index_footer_shop_b.png" alt="shop">
-				<p>购物车</p>
-			</div>
+				<div class="order_nav_items ">
+					<img src="../images/index_footer_shop_b.png" alt="shop">
+					<p>购物车</p>
+				</div>
 			</a>
 			<a href="me_page.html">
-			<div class="order_nav_items order_nav_check">
-				<img src="../images/index_footer_my_b.png" alt="my">
-				<p>我的</p>
-			</div>
+				<div class="order_nav_items order_nav_check">
+					<img src="../images/index_footer_my_b.png" alt="my">
+					<p>我的</p>
+				</div>
 			</a>
 		</div>
 		<article class="against">
-			<ul class="order_list">
+			<ul class="order_list" id="order_list">
 				<li class="cleak">
-					<a href="order_subpage.html"><span>我的兑单</span></a>
+					<a><span>我的兑单</span></a>
 				</li>
 				<li>
-					<a href="order_payment.html"><span>待收货</span></a>
+					<a><span>待收货</span></a>
 				</li>
 				<li>
-					<a href="order_deliver.html"><span>待领取</span></a>
+					<a><span>待领取</span></a>
 				</li>
 				<li>
-					<a href="order_receipt.html"><span>待评价</span></a>
+					<a><span>待评价</span></a>
 				</li>
 				<li>
-					<a href="order_evaluate.html"><span>待取消</span></a>
+					<a><span>待取消</span></a>
 				</li>
 			</ul>
-			<div class="whole_store whole_store_personal">
-				<a class="page_fist_top" href="account_setting.html">
-					<p class="float_left page_fist_fontleft">
-						<span class="page_fist_deep">我是商家1</span>
-					</p>
-					<p class="page_fist_allorder float_right">
-						<span class="page_fist_shallow">6</span>
-						<span class="forward_key "></span>
-					</p>
-				</a>
-				<a class="page_fist_top" href="account_setting.html">
-					<p class="float_left page_fist_fontleft">
-						<span class="page_fist_deep">我是商家2</span>
-					</p>
-					<p class="page_fist_allorder float_right">
-						<span class="page_fist_shallow">7</span>
-						<span class="forward_key "></span>
-					</p>
-				</a>
-				<a class="page_fist_top" href="account_setting.html">
-					<p class="float_left page_fist_fontleft">
-						<span class="page_fist_deep">我是商家3</span>
-					</p>
-					<p class="page_fist_allorder float_right">
-						<span class="page_fist_shallow">8</span>
-						<span class="forward_key "></span>
-					</p>
-				</a>
-				<a class="page_fist_top" href="account_setting.html">
-					<p class="float_left page_fist_fontleft">
-						<span class="page_fist_deep">我是商家4</span>
-					</p>
-					<p class="page_fist_allorder float_right">
-						<span class="page_fist_shallow">9</span>
-						<span class="forward_key "></span>
-					</p>
-				</a>
+			<div id="content">
+				<div class="whole_store whole_store_personal tab" style="display: block;">
+					<a class="page_fist_top">
+						<p class="float_left page_fist_fontleft">
+							<span class="page_fist_deep">我是商家1</span>
+						</p>
+						<p class="page_fist_allorder float_right">
+							<span class="page_fist_shallow">6</span>
+							<span class="forward_key "></span>
+						</p>
+					</a>
+					<a class="page_fist_top">
+						<p class="float_left page_fist_fontleft">
+							<span class="page_fist_deep">我是商家2</span>
+						</p>
+						<p class="page_fist_allorder float_right">
+							<span class="page_fist_shallow">7</span>
+							<span class="forward_key "></span>
+						</p>
+					</a>
+					<a class="page_fist_top">
+						<p class="float_left page_fist_fontleft">
+							<span class="page_fist_deep">我是商家3</span>
+						</p>
+						<p class="page_fist_allorder float_right">
+							<span class="page_fist_shallow">8</span>
+							<span class="forward_key "></span>
+						</p>
+					</a>
+					<a class="page_fist_top">
+						<p class="float_left page_fist_fontleft">
+							<span class="page_fist_deep">我是商家4</span>
+						</p>
+						<p class="page_fist_allorder float_right">
+							<span class="page_fist_shallow">9</span>
+							<span class="forward_key "></span>
+						</p>
+					</a>
+				</div>
+				<div id="order_list_cont">
+					<div class="cont tab">
+						<div class="whole_store whole_store_order">
+							<div class="shop_merchandise order_merchandise">
+								<span class="order_icon"></span>
+								<span class="product_name">花花公子服饰专营店</span>
+								<span class="forward_key "></span>
+								<span class="delete_order_sub">卖家已发货</span>
+							</div>
+							
+							<div class="shopcat_commodity">
+									<div class="shopcart_detail shopcart_detail_slip">
+										<div class="shopcart_detail_next">
+											<p class="shopcart_detail_img">
+												<img src="../images/pic.png" />
+											</p>
+
+											<div class="detail_content" style="width: 70%;">
+												<p class="detail_content_tit">男士冬季外套2017新款 棉衣加厚休闲</p>
+
+												<div class="price_setting">
+
+													<p class="abandoned float_left">
+														<span style="font-size: 16px;">￥499</span>
+													</p>
+													<p class="number_and" style="float: right;margin-right: 10px;">
+														<button class="float_right num" value="-">+</button>
+														<input class="float_right number_input" type="text" value="2" />
+														<button class="float_right reduce" value="+">-</button>
+													</p>
+												</div>
+												<p>
+													<span class="priceColor_red"><b class="price_size">28</b></span>
+													<span style="font-size: 14px;">礼币</span>/
+													<span class="priceColor_red"><b class="price_size">298</b></span>
+													<span style="font-size: 14px;">积分</span>
+												</p>
+											</div>
+										</div>
+										<div class="shopcat_delete buttonClor_red">删除</div>
+										<div class="shopcat_delete buttonClor_yellow">收藏</div>
+										<p class="small_demarcation"></p>
+									</div>
+									<p class="pay_total_order">
+										<button class="pay_order pay_order_no">查看物流</button>
+										<button class="pay_order pay_order_yes">确认收货</button>
+									</p>
+
+							</div>
+						</div>
+					</div>
+				<div class="tab">
+					<div id="order_list_cont">
+						<div class="cont">
+							<div class="whole_store whole_store_order">
+								<div class="shop_merchandise order_merchandise">
+									<span class="order_icon"></span>
+									<span class="product_name">花花公子服饰专营店</span>
+									<span class="forward_key "></span>
+									<span class="delete_order_sub">等待领取</span>
+								</div>
+								<div class="shopcat_commodity">
+									<div class="shopcart_detail shopcart_detail_slip">
+										<div class="shopcart_detail_next">
+											<p class="shopcart_detail_img">
+												<img src="../images/pic.png" />
+											</p>
+
+											<div class="detail_content" style="width: 70%;">
+												<p class="detail_content_tit">男士冬季外套2017新款 棉衣加厚休闲</p>
+
+												<div class="price_setting">
+
+													<p class="abandoned float_left">
+														<span style="font-size: 16px;">￥499</span>
+													</p>
+													<p class="number_and" style="float: right;margin-right: 10px;">
+														<button class="float_right num" value="-">+</button>
+														<input class="float_right number_input" type="text" value="2" />
+														<button class="float_right reduce" value="+">-</button>
+													</p>
+												</div>
+												<p>
+													<span class="priceColor_red"><b class="price_size">28</b></span>
+													<span style="font-size: 14px;">礼币</span>/
+													<span class="priceColor_red"><b class="price_size">298</b></span>
+													<span style="font-size: 14px;">积分</span>
+												</p>
+											</div>
+										</div>
+										<div class="shopcat_delete buttonClor_red">删除</div>
+										<div class="shopcat_delete buttonClor_yellow">收藏</div>
+										<p class="small_demarcation"></p>
+									</div>
+									<p class="pay_total_order">
+										<button class="pay_order pay_order_yes">领取</button>
+									</p>
+
+								</div>
+							</div>
+						</div>
+					</div>
+					<p style="color: #EF4441; text-align: center;margin-top: 30px;">点领取跳转到我的礼品页面</p>
+				</div>
+				<div class="cont tab">
+					<div class="whole_store whole_store_order">
+						<div class="shop_merchandise order_merchandise">
+							<span class="order_icon"></span>
+							<span class="product_name">花花公子服饰专营店</span>
+							<span class="forward_key "></span>
+							<span class="delete_order_sub">等待评价</span>
+						</div>
+						<div class="shopcat_commodity">
+							<div class="shopcart_detail shopcart_detail_slip">
+								<div class="shopcart_detail_next">
+									<p class="shopcart_detail_img">
+										<img src="../images/pic.png" />
+									</p>
+
+									<div class="detail_content" style="width: 70%;">
+										<p class="detail_content_tit">男士冬季外套2017新款 棉衣加厚休闲</p>
+
+										<div class="price_setting">
+
+											<p class="abandoned float_left">
+												<span style="font-size: 16px;">￥499</span>
+											</p>
+											<p class="number_and" style="float: right;margin-right: 10px;">
+												<button class="float_right num" value="-">+</button>
+												<input class="float_right number_input" type="text" value="2" />
+												<button class="float_right reduce" value="+">-</button>
+											</p>
+										</div>
+										<p>
+											<span class="priceColor_red"><b class="price_size">28</b></span>
+											<span style="font-size: 14px;">礼币</span>/
+											<span class="priceColor_red"><b class="price_size">298</b></span>
+											<span style="font-size: 14px;">积分</span>
+										</p>
+									</div>
+								</div>
+								<div class="shopcat_delete buttonClor_red">删除</div>
+								<div class="shopcat_delete buttonClor_yellow">收藏</div>
+								<p class="small_demarcation"></p>
+							</div>
+							<p class="pay_total_order">
+								<button class="pay_order pay_order_yes">评价</button>
+							</p>
+
+						</div>
+					</div>
+				</div>
+				<div class="cont tab">
+					<div class="whole_store whole_store_order">
+						<div class="shop_merchandise order_merchandise">
+							<span class="order_icon"></span>
+							<span class="product_name">花花公子服饰专营店</span>
+							<span class="forward_key "></span>
+							<span class="delete_order_sub">已取消</span>
+						</div>
+						<div class="shopcat_commodity">
+							<div class="shopcart_detail shopcart_detail_slip">
+								<div class="shopcart_detail_next">
+									<p class="shopcart_detail_img">
+										<img src="../images/pic.png" />
+									</p>
+
+									<div class="detail_content" style="width: 70%;">
+										<p class="detail_content_tit">男士冬季外套2017新款 棉衣加厚休闲</p>
+
+										<div class="price_setting">
+
+											<p class="abandoned float_left">
+												<span style="font-size: 16px;">￥499</span>
+											</p>
+											<p class="number_and" style="float: right;margin-right: 10px;">
+												<button class="float_right num" value="-">+</button>
+												<input class="float_right number_input" type="text" value="2" />
+												<button class="float_right reduce" value="+">-</button>
+											</p>
+										</div>
+										<p>
+											<span class="priceColor_red"><b class="price_size">28</b></span>
+											<span style="font-size: 14px;">礼币</span>/
+											<span class="priceColor_red"><b class="price_size">298</b></span>
+											<span style="font-size: 14px;">积分</span>
+										</p>
+									</div>
+								</div>
+								<div class="shopcat_delete buttonClor_red">删除</div>
+								<div class="shopcat_delete buttonClor_yellow">收藏</div>
+								<p class="small_demarcation"></p>
+							</div>
+							<p class="pay_total_order">
+								<button class="pay_order pay_order_yes">取消</button>
+							</p>
+
+						</div>
+					</div>
+				</div>
 			</div>
 		</article>
 	</body>
 
 	<script src="../js/goods_cart.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		//	显示隐藏内容快
+	var lis = document.getElementById("order_list").getElementsByTagName("li");
+			var divs = document.getElementById("content").getElementsByClassName("tab");
+			for(var i = 0; i < lis.length; i++) {
+				lis[i].index = i;
+				lis[i].onclick = function() {
+					for(var j = 0; j < lis.length; j++) {
+						lis[j].className = "";
+					}
 
+					this.className = "cleak";
+
+					for(var i = 0; i < divs.length; i++) {
+						divs[i].style.display = "none";
+					}
+
+					divs[this.index].style.display = "block";
+
+				}
+			}
+	</script>
 </html>

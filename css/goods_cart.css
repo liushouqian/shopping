@@ -1,4 +1,4 @@
-/*bao 17.12.17 v0.1*/
+/*alert:[%$#])**(^^%^!@$#@!#!@%^@!&#@!*7)*/
 
 * { padding:0px; margin:0px;}
 body{ color:#333333;  font-family:"microsoft yahei"; background-color:#F6F6F6; font-size:16px;}
@@ -161,7 +161,7 @@ hr{
 }
 .detail_content .price_setting{
 	overflow: hidden;
-	width: 95%;
+	width: 96%;
 }
 .price_setting p{
 	float: left;
@@ -243,7 +243,7 @@ hr{
 	overflow: hidden;
 	position: fixed;
 	bottom: 0px;
-	height: 60px;
+	height: 55px;
 	background-color: #FFFFFF;
 }
 .footer .select{
@@ -257,7 +257,7 @@ hr{
 }
 .footer .settlement{
 	width: 35%;
-    line-height: 60px;
+    line-height: 55px;
     color: #fff;
     font-size: 20px;
     cursor: pointer;
@@ -290,6 +290,33 @@ hr{
 	background-color: rgba(000,000,000,0.5);
 	z-index: 10;
 }
+.tab{
+	display: none;
+}
+/*星星*/
+.page_fist_margin .xingxing {
+  padding-left: 0;
+  overflow: hidden;
+      width: 60%;
+    float: left;
+    margin-top: 15px;
+ }
+.page_fist_margin .xingxing li {
+  float: left;
+  list-style: none;
+  width: 15%;
+  height: 22px;
+  background: url(../images/comment-star.png) no-repeat 0px -20px;
+ }
+ .xingxing li a {
+  display: block;
+  width: 100%;
+  padding-top: 27px;
+  overflow: hidden;
+ }
+ .xingxing li.light {
+  background-position: 0 0px;
+ }
 /*选规格*/
 .spec-menu-content{
 	position: fixed;
@@ -690,7 +717,7 @@ hr{
 }
 .page_fist_txt li{
 	float: left;
-	width: 25%;
+	width: 23%;
 }
 .page_fist_txt li p{
     width: 28px;
@@ -721,7 +748,8 @@ hr{
 }
 .page_fist_margin{
 	margin-top: 10px;
-	overflow: hidden;text-align: center;
+	overflow: hidden;
+	text-align: center;
 }
 .page_fist_bottom{
 	margin-bottom: 20px;
@@ -860,10 +888,18 @@ hr{
     display: block;
     border-radius: 3px;
     font-size: 16px;
+    text-align: center;
 }
 .secu_ul li{
 	width: 23%;
 	margin: 0px;
+}
+.yanzhengma{
+	width: 53%;float: left;
+}
+.yanzhengma .sb_ui_input{
+	width: 100%;
+	line-height: 50px;
 }
 .secu_ul  strong{
 	display: block;
@@ -871,7 +907,7 @@ hr{
 	border-left: 1px solid #999999;
 	height: 50px;
 	margin-left: 4px;
-	margin-right: 4px;
+	margin-right: 3px;
 }
 
 .secu_form .whole_store{
@@ -1019,7 +1055,7 @@ hr{
     border-left: 1px solid #f6f6f6;
     height: 89px;
     margin-left: 4px;
-    margin-right: 4px;
+    margin-right: 3px;
     margin-top: -15px;
 }
 
@@ -1378,7 +1414,7 @@ hr{
 	display: block;
 	
 }
-.page_fist_margin strong{
+.page_f strong{
 	    float: left;
     padding: 30px 0px;
     border: 0.5px solid #E5E5E5;
@@ -1523,6 +1559,316 @@ hr{
 	    width: 90%;
     float: left;
 }
+.page_head_city{
+	background: url(../images/tian.png) no-repeat center;
+	background-size: 100%;
+	padding: 10px;
+}
+.me_news_box{
+	background: #FFFFFF;
+	width: 100%;
+}
+.news_tit_time{
+	    width: 100%;
+    line-height: 50px;
+    text-align: center;	
+}
+.news_tit{
+	    width: 75%;
+    color: #ff0000;
+    border-bottom: 1px solid #ff0000;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 40px;
+}
+.news_conert{
+	    width: 65%;
+    margin: 0 auto;
+}
+.news_conert p{
+	margin-top: 5px;
+	color: #666666;
+}
+.news_conert .news_img img{
+	width: 100%;
+}
+.news_conert  .news_sender{
+	text-align: right;
+	line-height: 30px;
+}
+.payment_top{
+    line-height: 45px;
+    text-align: right;
+    margin-right: 10px;
+}
+.pay_pingtai{
+	background-color: #FFFFFF;
+}
+.pay_pay{
+	    line-height: 40px;
+    text-indent: 10px;
+    font-weight: bold;
+    border-bottom: 1px solid #f6f6f6;
+}
+.payment_pay{
+	line-height: 35px;
+    padding-bottom: 10px;
+}
+.paymentpay{
+	    text-indent: 10px;
+    font-size: 14px;
+}
+.pay_ment_pay{
+	    background-color: #FBFBFB;
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+.pay_fangshi p{
+	    text-indent: 10px;
+    font-size: 14px;
+    line-height: 40px;
+}
+.paymode_icon1{
+	background: url(../images/zhifubao2.png) no-repeat center;
+	background-size: 100%;
+	    padding: 10px 15px;
+	    margin-right: 10px;
+}
+.paymode_icon2{
+	background: url(../images/weixin.png) no-repeat center;
+	background-size: 100%;
+	    padding: 10px 15px;
+	    margin-right: 10px;
+}
+.paymode_icon3{
+	background: url(../images/yinlian.png) no-repeat center;
+	background-size: 100%;
+	padding: 10px 45px;
+	    margin-right: 10px;
+}
+.page_fist_margina{
+	margin-top: 10px;
+	overflow: hidden;
+}
+.page_fist_marginb{
+	margin-top: 2px;
+	overflow: hidden;
+}
+.payment_bottom{
+	font-size: 14px;
+	line-height: 30px;
+}
+.hank_icon{
+	background: url(../images/105143891651515625.png) no-repeat center;
+	background-size: 100%;
+	    padding: 10px 14px;
+    margin-right: 10px;
+}
+.hank_icon1{
+	background: url(../images/78894525797179799.png) no-repeat center;
+	background-size: 100%;
+	    padding: 10px 14px;
+	    
+    margin-right: 10px;
+}
+.hank_icon2{
+	background: url(../images/yinlian.png) no-repeat center;
+	background-size: 100%;
+    padding: 10px 14px;   
+    margin-right: 10px;
+}
+.hangkpay_icon{
+	background: url(../images/chakan.png) no-repeat center;
+	background-size: 100%;
+	padding: 10px;
+	float: right;
+    margin: 15px;
+}
+.pay_hank_xuaze{
+	    line-height: 45px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.return_key_hank{
+	top: 8px;
+}
+.hank_pay_car{
+	height: 65%;
+	min-height: 65%;
+    overflow-y: scroll;
+    line-height: 50px;
+}
+.hank_pay_car li{
+	text-indent: 20px;
+	    font-size: 18px;
+}
+.password_pay_ul{
+	    overflow: hidden;
+    width: 95%;
+    margin: 0px auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.password_pay_ul li{
+    float: left;
+    width: 16%;
+    border: 1px solid #ccc;
+    height: 50px;
+    margin: 10px 0px;
+}
+.password_pay_ul input[type=password]{
+    width: 100%;
+    border: 0px;
+    height: 50px;
+    text-align: center;
+}
+.wang_password{
+	text-decoration: underline;
+    margin-right: 10px;
+}
+
+.pay_success{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 30%;
+    margin-bottom: 30%;
+}
+.pay_success img{
+	width: 100%;
+}
+.logistic_box{
+	background-color: #FFFFFF;
+}
+.logistic{
+	width: 100%;
+	overflow: hidden;
+	    padding-top: 5px;
+}
+.logistic p{
+	float: left;
+	
+}
+.logistic_time{
+	width: 25%;
+}
+.logisticicona{
+	width: 2px;
+    height: 75px;
+    position: relative;
+    border-left: 1px solid #ccc;
+}
+.logistic_icon{
+	background: url(../images/836377074085914931.png) no-repeat center;
+	background-size: 100%;
+	padding: 10px;
+	position: relative;
+	left: -6px;
+}
+.logistic_icona{
+	background: url(../images/708299662586450106.png) no-repeat center;
+	background-size: 100%;
+	padding: 10px;
+	position: relative;
+	left: -6px;
+}
+.logistic_count{
+    width: 65%;
+    padding-left: 10px;
+    text-align: justify;
+}
+.color_logistic{
+	color: #EF4441;
+}
+
+.evalua_pingjia{
+	    width: 90%;
+    min-height: 144px;
+    border: 0px;
+    line-height: 30px;
+    text-indent: 10px;
+}
+.page_head_icon4{
+	    background: url(../images/cardpackage.png) no-repeat center;
+    background-size: 100%;
+    padding: 10px;
+}
+.page_head_icon5{
+	    background: url(../images/invoice_two.png) no-repeat center;
+    background-size: 100%;
+    padding: 10px;
+}
+
+.coupon_box{
+	    background-color: #fff;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.coupon_img{
+	    width: 25%;
+    margin: 10px;
+}
+.coupon_box img{
+	width: 100%;
+}
+.coupon_count{
+    width: 58%;
+}
+.coupon_count_tit{
+	overflow: hidden;line-height: 20px;
+}
+.coupon_die{
+	    padding: 1px 5px;
+    border: 1px solid #EA3F38;
+    color: #EA3F38;
+    position: relative;
+    top: 8px;
+}
+.coupon_bei1{
+	    background-color: #ccc;
+    width: 60%;
+    height: 10px;
+    border-radius: 50px;
+    margin-top: 3px;
+    margin-right: 5px;
+}
+.coupon_bei2{
+	    background-color: #F3AFB0;
+    width: 79%;
+    height: 10px;
+    border-radius: 50px; 
+    margin-top: 0px;
+    float: left;
+}
+.recharge{
+	    width: 100%;
+    line-height: 35px;
+    border-radius: 5px;
+    border: 0px;
+    text-indent: 10px;
+}
+.recharge_xi{
+	    line-height: 35px;
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    text-indent: 10px;
+    color: #666666;
+}
+.recharge_money{
+    font-weight: 800;
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
 
 /*320px以下的媒体查询*/
 @media (max-width: 320px) {

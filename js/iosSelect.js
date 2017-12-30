@@ -87,10 +87,10 @@
 			for (var i = 0, len = sureDom.length; i < len; i++) {
 				sureDom[i].addEventListener('click', function(e) {
 					self.close();
-//					3-11修改
-					$('.alldiv').hide();
+//					确定修改
+					$('.mask').hide();
 					$('.vihide').show();
-					$('.teampopbz').hide();
+					$('.mask').hide();
 				});
 			}
 			for (var i = 0, len = closeDom.length; i < len; i++) {
