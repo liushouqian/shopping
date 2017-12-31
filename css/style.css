@@ -300,6 +300,10 @@ input {
     text-align: center;
 }
 
+.footer-items.active {
+    color: #ff2f39;
+}
+
 .footer-items img {
     width: 40%;
     margin: 0 auto;
