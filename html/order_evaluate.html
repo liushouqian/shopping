@@ -10,11 +10,7 @@
 		<title>我的订单-待评价</title>
 		<link rel="stylesheet" type="text/css" href="../css/goods_cart.css" />
 		<script src="../js/jquery-1.8.3.min.js" type="text/javascript" charset="utf-8"></script>
-		<style type="text/css">
-			html {
-				background-color: #f6f6f6;
-			}
-		</style>
+		
 	</head>
 
 	<body>
@@ -34,25 +30,26 @@
 		</div>
 		<article>
 			<ul class="order_list">
-				<li>
-					<a href="order_subpage.html"><span>全部</span></a>
-				</li>
 				<li >
 					<a href="order_payment.html"><span>待付款</span></a>
 				</li>
-				<li >
+				<li>
 					<a href="order_deliver.html"><span>待发货</span></a>
 				</li>
-				<li >
+				<li>
 					<a href="order_receipt.html"><span>待收货</span></a>
 				</li>
 				<li class="cleak">
 					<a href="order_evaluate.html"><span>待评价</span></a>
 				</li>
+				<li>
+					<a href="order_evaluate.html"><span>已取消</span></a>
+				</li>
 			</ul>
 			<div class="single_number">
 				<span>订单号:</span>
 				<span>8783789423</span>
+				<span class="delete_order "></span>
 			</div>
 			<div id="order_list_cont">
 				<div class="cont">
@@ -93,7 +90,6 @@
 									</p>
 								</div>
 								<p class="pay_total_order">
-									<button class="pay_order pay_order_no">删除订单</button>
 									<button class="pay_order pay_order_yes">评价</button>
 								</p>
 							</div>
