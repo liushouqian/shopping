@@ -66,6 +66,7 @@
     line-height: 40px;
     font-size: 17px;
     color: #333;
+    border-bottom: 1px solid #e5e5e5;
 }
 
 .nav-left-items.active {
