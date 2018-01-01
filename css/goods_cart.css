@@ -626,7 +626,7 @@ hr{
 }
 .order_nav .order_nav_check{
 	background-color: #2D2D2D;
-	line-height: 25px;
+	height: 60px;
 }
 /*商品购买*/
 
@@ -651,6 +651,7 @@ hr{
     float: left;
     margin-right: 15px;
     margin-top: 6%;
+    margin-left: 10px;
 }
 .page_head_img img{
 	width: 100%;
@@ -717,7 +718,7 @@ hr{
 }
 .page_fist_txt li{
 	float: left;
-	width: 23%;
+	width: 25%;
 }
 .page_fist_txt li p{
     width: 28px;
@@ -1859,12 +1860,167 @@ hr{
     text-align: center;
     margin: 20px;
 }
+.content-shop .content-score{
+	    width: 58%;
+    float: left;
+}
+.content-shop .content-score ul{
+    left: 22%;
+}
+.content-items .details_guan{
+	    line-height: 16px;
+}
+.content-items .details_guan .shop_xiangqing_icon{
+	    padding: 3px 10px;
+}
+.content-items .details_guan .shop_xiangqing_icon1{
+	    padding: 3px 10px;
+}
+.select_icon2{
+    background: url(../images/ellipse_on.png) no-repeat 0 4px;
+    background-size: 100%;
+    width: 25px;
+    height: 30px;
+        position: absolute;
+    top: 13px;
+    right: 13px;
+}
+.chaoxi{
+	    position: absolute;
+    bottom: 22px;
+    right: 25px;
+}
+.zixun_up{
+	background-color: #FFFFFF;
+}
+.zixun_down{
+	background-color: #FFE6E6;
+}
+.zixun_mang{
+	    line-height: 30px;
+	    padding: 15px;
+}
+.manage_zixun{
+	    color: #666666;
+    font-size: 14px;
+}
+.withdraw{
+	    background-color: #fff;
+    text-align: center;
+    width: 95%;
+    margin: 0 auto;
+    padding: 10% 0px;
+}
+.withdraw_p{
+    font-size: 40px;
+}
+.luck_order{
+	    width: 35%;
+    line-height: 35px;
+    background-color: #fff;
+    border-radius: 2px;
+    border: 0px solid;
+    float: left;
+    
+}
+.luck_order_no{
+	border: 1px solid #FF404F;
+    color: #FF404F;	
+}
+.luck_order_yes{
+    background-color: #009ad8;
+    color: #fff;
+}
 
+.active_tit{
+	background-color: #FFFFFF;
+	width: 100%;
+}
+.active_text{
+	overflow: hidden;
+}
+.active_text p{
+	float: left;
+	    line-height: 40px;
+}
+.active_text_conut{
+	margin-top: 5px;
+	margin-left: 10px;
+	    width: 56%;
+}
+.active_background{
+	background: url(../images/a.png) no-repeat center;
+	background-size: 100%;
+	padding: 5px 35px;
+    color: #fff;
+}
+.activies_table{
+	width: 100%;
+	line-height: 45px;
+	background-color: #FFFFFF;
+	
+}
+.activies_table tbody th{
+	color: #666666;
+	font-weight: initial;
+    font-size: 14px;
+}
+.activies_table tr:nth-child(even){
+background: #E5E5E5;
+}
+.activies_tableb{
+	width: 100%;
+	line-height: 45px;
+	background-color: #FFFFFF;
+	    display: inline-grid;
+	
+}
+.activies_tableb thead th{
+	font-size: 14px;
+}
+.activies_tableb tbody th{
+	color: #666666;
+	font-weight: initial;
+    font-size: 12px;
+}
+.activies_tableb tr{
+	border-bottom: 1px solid #CCCCCC;
+}
+.gift .order_list li{
+	width: 22%;
+}
+.gift_logo{
+	background: url(../images/store.png) no-repeat center;
+	background-size: 100%;
+	padding: 10px;
+}
+.gift_img{
+	    width: 13%;
+    position: absolute;
+    right: 6%;
+    margin-top: 20px;
+}
+.gift_img img{
+	width:100%;
+}
+.vas .pay_total{
+	    width: 95%;
+}
 
-
-
-
-
+.help .page_fist_allorder{
+	    width: 10%;
+}
+.help_center h2{
+	line-height: 40px;
+	text-indent: 20px;
+	font-size: 18px;
+}
+.help_center p{
+	    width: 90%;
+    margin: 0 auto;
+    margin-top: 10px;
+    color: #666666;
+}
 
 
 

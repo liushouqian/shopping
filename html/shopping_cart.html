@@ -14,12 +14,44 @@
 
 	<body>
 		<header class="header">
-			<a><span class="return_key"></span></a>
+			<a href="javascript:history.go(-1);"><span class="return_key"></span></a>
 			<span>购物车</span>
 			<span class="menu_icon"></span>
 
 		</header>
 		<div style="height: 60px;"></div>
+		<div class="order_nav" id="order_nav">
+			<a href="index.html">
+				<div class="order_nav_items">
+					<img src="../images/index_footer_home_b.png" alt="home">
+					<p>首页</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="order_nav_items">
+					<img src="../images/index_footer_class_b.png" alt="class">
+					<p>分类</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="order_nav_items">
+					<img src="../images/index_footer_search_b.png" alt="search">
+					<p>搜索</p>
+				</div>
+			</a>
+			<a href="shopping_cart.html">
+				<div class="order_nav_items order_nav_check">
+					<img src="../images/index_footer_shop_a.png" alt="shop">
+					<p>购物车</p>
+				</div>
+			</a>
+			<a href="me_page.html">
+				<div class="order_nav_items ">
+					<img src="../images/index_footer_my_b.png" alt="my">
+					<p>我的</p>
+				</div>
+			</a>
+		</div>
 		<article>
 
 			<div class="whole_store">
@@ -32,19 +64,24 @@
 
 				<div class="shopcat_commodity">
 					<div class="shopcart_detail shopcart_detail_slip">
+						
+						</a>
 						<div class="shopcart_detail_next">
 							<span class="select_icon select_middle"></span>
 							<p class="shopcart_detail_img">
-								<img src="../images/pic.png" />
+								<a href="shop_xiangqing.html"><img src="../images/pic.png" /></a>
 							</p>
 
 							<div class="detail_content">
+								<a href="shop_xiangqing.html">
 								<p class="detail_content_tit">男士冬季外套2017新款 棉衣加厚休闲</p>
+								</a>
 								<p class="specification ">
 									<span>1389黑色【加绒款】</span>;
 									<span>L/170</span>
 									<span class="forward_key"></span>
 								</p>
+								
 								<div class="price_setting">
 									<p>
 										<span class="priceColor_red">￥<b class="price_size">298</b></span>
@@ -185,7 +222,7 @@
 				<span class="select_icon " id="select_icon_all"></span>
 				<p class="select_tex">全选</p>
 			</div>
-			<a href="me_page.html">
+			<a href="confirmation_order.html">
 			<div class="float_right buttonClor_red settlement">
 				去结算 <span class="settlement_number">(<b >2</b>件)</span>
 			</div>

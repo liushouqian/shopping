@@ -1,0 +1,85 @@
+body{
+	background-color: #FFFFFF;
+}
+.login_top{
+	    text-align: right;
+    margin: 14px;
+}
+.login_top a{
+	    text-decoration: underline;
+    color: #666666;
+}
+.login_img{
+    width: 30%;
+    margin: 0 auto;
+    text-align: center;	
+}
+.login_img img{
+	width: 100%;
+}
+.login_inpuy{
+    width: 90%;
+    margin: 0 auto;
+    display: block;
+    line-height: 40px;
+    border: 0px;
+    border-bottom: 1px solid #ccc;
+    text-indent: 50px;
+    outline: none;	
+}
+.login_tt{
+	position: relative;
+    margin-top: 20px;
+}
+.login_tt p{
+	position: absolute;
+	top: 0;
+    left: 20px;
+    width: 25px;
+}
+.login_tt p img{
+	width: 100%;
+}
+.login_yanzheng{
+    display: block;
+    background-color: #FAFAFA;
+    width: 30%;
+    text-align: center;
+    line-height: 30px;
+    color: #999999;
+    position: absolute;
+    top: 0;
+    right: 12px;
+}
+.login_submit{
+	    width: 90%;
+    margin: 0 auto;
+    display: block;
+    border: 0px solid;
+    background-color: #fff;
+    line-height: 45px;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+.login_submita{
+    border: 1px solid #FF4343;
+    color: #FF4343;
+}
+.login_submitb{
+	background-color: #FF4343;
+    color: #fff;	
+}
+.xuan2{
+	background: url(../images/mlogin_xuan2.png) no-repeat center;
+	background-size: 100%;
+	padding: 10px;
+    margin-right: 10px;
+}
+.login_bottom{
+	    width: 90%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 12px;
+    text-align: center;
+}
