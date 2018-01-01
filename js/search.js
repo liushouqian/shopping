@@ -5,7 +5,6 @@ $(function() {
       $(".search-input").removeClass("active");
     });
   $(".sequencing-items").click(function() {
-    $(this).addClass("active").siblings().removeClass("active");
     if ($(this).hasClass("screen-btn")) {
       if ($(".divAll").hasClass("active")) {
         $(".screen-all").addClass("active");
@@ -14,10 +13,12 @@ $(function() {
       } else if ($(".divOutlet").hasClass("active")) {
         $(".screen-outlet").addClass("active");
       }
+    } else {
+      $(this).addClass("active").siblings().removeClass("active");
     }
   });
   $(".three-nav-items").click(function() {
-    $(this).addClass("active").siblings().removeClass("active");
+    $(this).addClass("active").siblings().removeClass("active"); 
   });
   $(".new-search-delect").click(function () {
     $(".clearSearch").addClass("active");
@@ -36,6 +37,14 @@ $(function() {
     $(".new-search-content").empty();
   });
   $(".screen-all-3-2").click(function () {
-    $(".screen-all-3-content").addClass("active");
+    $(this).parent().siblings().addClass("active");
+  });
+  $(".screen-all-3-content-items").click(function () {
+    $(this).addClass("active").siblings().removeClass("active");
+  });
+  $(".screen-reset").click(function () {
+    $(".minimum").val("");
+    $(".maximum").val("");
+    $(".screen-all-3-content-items").removeClass("active");
   });
 });
