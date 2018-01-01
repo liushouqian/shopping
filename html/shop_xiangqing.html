@@ -14,12 +14,44 @@
 
 	<body>
 		<header class="header">
-			<a><span class="return_key"></span></a>
+			<a href="javascript:history.go(-1);"><span class="return_key"></span></a>
 			<span>商品详情</span>
 			<span class="menu_icon"></span>
 
 		</header>
 		<div style="height: 60px;"></div>
+		<div class="order_nav" id="order_nav">
+			<a href="index.html">
+				<div class="order_nav_items">
+					<img src="../images/index_footer_home_b.png" alt="home">
+					<p>首页</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="order_nav_items">
+					<img src="../images/index_footer_class_b.png" alt="class">
+					<p>分类</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="order_nav_items">
+					<img src="../images/index_footer_search_b.png" alt="search">
+					<p>搜索</p>
+				</div>
+			</a>
+			<a href="shopping_cart.html">
+				<div class="order_nav_items order_nav_check">
+					<img src="../images/index_footer_shop_a.png" alt="shop">
+					<p>购物车</p>
+				</div>
+			</a>
+			<a href="me_page.html">
+				<div class="order_nav_items ">
+					<img src="../images/index_footer_my_b.png" alt="my">
+					<p>我的</p>
+				</div>
+			</a>
+		</div>
 		<article>
 			<div class="details_backa details_back_top">
 				<img src="../images/index_active_5.png" />
@@ -110,7 +142,7 @@
 					<i class="focus-scale "></i> 
 					<span class="focus-info ">在线咨询 </span> 
 				</a>
-				<a class="cart-car-icn J_ping " id="toCartNew " href="# "> 
+				<a href="shopping_cart.html" class="cart-car-icn J_ping " id="toCartNew " href="# "> 
 						<i class="order-numbers"></i> 
 						<span class="focus-info ">购物车</span>
 				</a>

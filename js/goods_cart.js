@@ -187,6 +187,12 @@ $(function() {
     	$('#rech_hank').hide();
     	$('#pay_hank_pasword').show();
 	})
+	//提现
+	
+	$('#with_paword').on('click', function(e) {
+    	$('.mask').show();
+    	$('#pay_hank_pasword').show();
+	})
 });
 
 //星星评价
