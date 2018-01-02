@@ -193,6 +193,41 @@ $(function() {
     	$('.mask').show();
     	$('#pay_hank_pasword').show();
 	})
+	//我的卡包
+	
+	$('.package_car_clsoe').on('click', function(e) {
+    	$('.mask').hide();
+        $('.me_pack').show();
+		$('.package_car').hide();
+	})
+	$('.me_pack').on('click', function(e) {
+    	$(this).children('.me_cart_report').show();
+	})
+	//一直点击
+	$(function(){
+    	var t = 0,num=0;;
+	    $(".me_pack_img").click(function(){
+	        if( num == 0 ){
+	            t = new Date().getTime();
+	            num+=1;
+	           
+	        }else{
+            var tt = new Date().getTime();
+            if( tt-t<=500 ){
+                // 一直点击
+                $('.mask').show();
+	            $('.me_pack').hide();
+				$('.package_car').show();
+            }else if(tt-t>500){
+                num+=1;
+                $(this).find("label").text(num);
+            }
+            t = tt;
+        }
+	    });
+	});
+	
+	
 });
 
 //星星评价

@@ -15,7 +15,7 @@
 
 	<body>
 		<header class="header">
-			<a><span class="return_key"></span></a>
+				<a href="javascript:history.go(-1);"><span class="return_key"></span></a>
 			<span>账户设置</span>
 			<span class="menu_icon"></span>
 
@@ -23,28 +23,35 @@
 		<div style="height: 60px;"></div>
 		<div class="order_nav" id="order_nav">
 			<a href="index.html">
-			<div class="order_nav_items">
-				
-				<img src="../images/index_footer_home_a.png" alt="home">
-				<p>首页</p>
-			</div>
+				<div class="order_nav_items">
+					<img src="../images/index_footer_home_b.png" alt="home">
+					<p>首页</p>
+				</div>
 			</a>
-			<div class="order_nav_items">
-				<img src="../images/index_footer_class_b.png" alt="class">
-				<p>分类</p>
-			</div>
-			<div class="order_nav_items">
-				<img src="../images/index_footer_search_b.png" alt="search">
-				<p>搜索</p>
-			</div>
-			<div class="order_nav_items ">
-				<img src="../images/index_footer_shop_b.png" alt="shop">
-				<p>购物车</p>
-			</div>
-			<div class="order_nav_items order_nav_check">
-				<img src="../images/index_footer_my_b.png" alt="my">
-				<p>我的</p>
-			</div>
+			<a href="search.html">
+				<div class="order_nav_items">
+					<img src="../images/index_footer_class_b.png" alt="class">
+					<p>分类</p>
+				</div>
+			</a>
+			<a href="#">
+				<div class="order_nav_items">
+					<img src="../images/index_footer_search_b.png" alt="search">
+					<p>搜索</p>
+				</div>
+			</a>
+			<a href="shopping_cart.html">
+				<div class="order_nav_items ">
+					<img src="../images/index_footer_shop_b.png" alt="shop">
+					<p>购物车</p>
+				</div>
+			</a>
+			<a href="me_page.html">
+				<div class="order_nav_items order_nav_check">
+					<img src="../images/index_footer_my_a.png" alt="my">
+					<p>我的</p>
+				</div>
+			</a>
 		</div>
 		<article>
 			<div class="whole_store whole_store_personal">
@@ -102,7 +109,7 @@
 				</a>
 			</div>
 			<div class="whole_store whole_store_personal page_fist_margin">
-				<a class="page_fist_top">
+				<a class="page_fist_top" href="login.html">
 					<p style="text-align: center;">
 						<span class="page_fist_deep">退出登录</span>
 					</p>
