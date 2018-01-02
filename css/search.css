@@ -375,7 +375,7 @@
 
 .screen-all-3-content {
     width: 100%;
-    height: 0;
+    height: 35px;
     padding: 0 23px;
     overflow: hidden;
 }
@@ -393,4 +393,31 @@
     text-align: center;
     line-height: 1;
     margin: 0 5px 5px 0;
+}
+
+.screen-all-3-content-items.active {
+    background-color: #ff2f39;
+    color: #fff;
+}
+
+.screen-all-4-content-items {
+    float: left;
+    padding: 7px 10px;
+    background-color: #fff;
+    color: #999;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1;
+    margin: 0 5px 5px 0;
+}
+
+.screen-all-4-content-items img {
+    float: left;
+    width: 20%;
+    margin-right: 5px;
+}
+
+.screen-all-4-content-items div {
+    float: left;
+    line-height: 17px;
 }

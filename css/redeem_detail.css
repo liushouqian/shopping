@@ -1,0 +1,153 @@
+.redeem-nav {
+    width: 100%;
+    background-color: #fff;
+}
+
+.redeem-nav-items {
+    float: left;
+    width: 20%;
+    text-align: center;
+    line-height: 50px;
+    color: #666;
+    border-bottom: 1.5px solid #eee;
+}
+
+.redeem-nav-items.active {
+    border-bottom: 1.5px solid #ef4441;    
+    color: #ef4441;
+}
+
+
+
+.groupon-top {
+    width: 100%;
+    padding: 8px 0;
+    margin-bottom: 5px;
+    background-color: #fff;
+}
+
+.top-nav {
+    padding: 0 20%;
+    margin-bottom: 8px;
+}
+
+.top-nav div:first-child {
+    border-right-width: 0px;
+    border-radius: 2.5px 0 0 2.5px;
+}
+
+.time-to-time {
+    width: 80%;
+    padding: 5px;
+    margin: 5px auto;
+    line-height: 20px;
+    color: #333;
+    border: 1px solid #c9c9c9;
+}
+
+.time-to-end {
+    position: relative;
+    width: 100%;
+    height: 15px;
+    padding-left: 5%;
+    margin: 0 0 8px 0;
+    color: #fc5052;
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.time-to-end img {
+    position: absolute;
+    top: 0;
+    left: 33%;
+    width: 3.467%;
+}
+
+.end-time {
+    width: 100%;
+    text-align: center;
+    line-height: 1;
+    color: #fe5052;
+    font-size: 14px;
+}
+
+.end-time span {
+    color: #333;
+}
+
+.optimize-items {
+    position: relative;
+    width: 50%;
+    padding: 10px 7px 0;
+    margin-bottom: 10px;
+    float: left;
+    background-color: #fff;
+}
+
+.optimize-items>img {
+    border-radius: 3px;
+}
+
+.optimize-items-title {
+    width: 100%;
+    padding: 8.5px 5px 10px;
+    margin-bottom: 11.5px;
+    color: #999;
+    font-size: 13px;
+    border-bottom: 1px solid #e3e3e3;
+}
+
+.optimize-items-now {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.optimize-items-price {
+    float: right;
+    font-size: 9px;
+    color: #999;
+    line-height: 1;
+}
+
+.optimize-items-nowPrice {
+    float: left;
+    font-size: 12px;
+    line-height: 1;
+    color: #ff5959;
+    text-decoration: line-through;
+}
+
+.groupon-libi,
+.groupon-jifen {
+    width: 50%;
+    float: left;
+}
+
+.groupon-libi img,
+.groupon-jifen img {
+    width: 30%;
+    margin-left: 15%;
+}
+
+.groupon-libi div,
+.groupon-jifen div {
+    font-size: 12px;
+    color: #000;
+}
+
+.join-redeem-btn {
+    width: 80%;
+    height: 32px;
+    margin: 0 auto 20px;
+    background-color: #999;
+    border-radius: 2.5px;
+    color: #fff;
+    text-align: center;
+    line-height: 32px;
+}
+
+.join-redeem-btn.active {
+    background-color: #2182f9;
+    color: #fff;
+}
