@@ -1121,7 +1121,11 @@ hr{
     background-color: #fff;
     line-height: 50px;
     text-align: center;
-    padding-bottom: 57%;
+   	z-index: 20;
+    position: fixed;
+    left: 5%;
+    right: 50%;
+    top: 15%;
 }
 .package_car .package_car_clsoe{
     text-align: left;
@@ -1163,6 +1167,7 @@ hr{
     line-height: 50px;
     width: 100%;
     color: #fff;
+    display: none;
 }
 .me_cart_report span{
     padding: 4% 20%;
@@ -1186,11 +1191,12 @@ hr{
 .invoice_syore .page_fist_top{
 	line-height: 45px;
 }
-.page_fist_fontleft{
-	
+.page_fist_txta li{
+	    float: left;
+    width: 23%;
 }
 .sb_ui_input{
-    line-height: 40px;
+    line-height: 50px;
     float: left;
     width: 68%;
     border: 0px solid;
@@ -2021,7 +2027,11 @@ background: #E5E5E5;
     margin-top: 10px;
     color: #666666;
 }
-
+.icon_page{
+    display: inline-block;
+    width: 25px;
+    margin-right: 5%;
+}
 
 
 
