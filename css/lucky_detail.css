@@ -1,0 +1,111 @@
+.groupon-top {
+    width: 100%;
+    padding: 19px 0;
+    margin-bottom: 5px;
+    background-color: #fff;
+}
+
+.time-to-end {
+    position: relative;
+    width: 100%;
+    height: 15px;
+    padding-left: 5%;
+    margin: 0 0 8px 0;
+    color: #fc5052;
+    font-size: 12px;
+    text-align: center;
+    line-height: 15px;
+}
+
+.time-to-end img {
+    position: absolute;
+    top: 0;
+    left: 33%;
+    width: 3.467%;
+}
+
+.end-time {
+    width: 100%;
+    text-align: center;
+    line-height: 1;
+    color: #fe5052;
+    font-size: 14px;
+}
+
+.end-time span {
+    color: #333;
+}
+
+.lucky-content {
+    width: 100%;
+    padding: 50px 11%;
+    background-color: #f05b2a;
+}
+
+.lucky-content div {
+    float: left;
+    width: 33.33%;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.winners-list {
+    width: 100%;
+    padding: 12.5px 2%;
+    background-color: #fef2cf;
+}
+
+.winners-list img {
+    margin-bottom: 14.5px;
+}
+
+.winners-list>div {
+    width: 100%;
+    height: 58px;
+}
+
+.winners-list>div:nth-child(even) {
+    background-color: #fde9b4;
+}
+
+.winners-list>div:nth-child(odd) {
+    background-color: #fce299;
+}
+
+.winners-list-left,
+.winners-list-mid,
+.winners-list-right {
+    float: left;
+    width: 25%;
+    line-height: 58px;
+    text-align: center;
+    color: #4f0203;
+    font-size: 15px;
+}
+
+.winners-list-mid {
+    width: 50%;
+    color: #e75948;
+}
+
+.active-rule {
+    width: 100%;
+    padding: 29px 8%;
+    background-color: #f5562b;
+}
+
+.active-rule-title {
+    width: 100%;
+    margin-bottom: 22px;
+    text-align: center;
+    font-size: 18px;
+    color: #fad549;
+}
+
+.active-rule-txt {
+    width: 100%;
+    margin-bottom: 16px;
+    font-size: 12px;
+    color: #ffe284;
+}

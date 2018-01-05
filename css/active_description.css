@@ -1,0 +1,52 @@
+body {
+    padding-bottom: 44px;
+    background-color: #fff;
+}
+
+.banner {
+    width: 100%;
+}
+
+.active-description {
+    width: 100%;
+    background-color: #fff;
+    text-align: center;
+    line-height: 50px;
+    color: #ff404f;
+    border-bottom: 1px solid #eee;
+}
+
+.content {
+    width: 100%;
+    padding: 17px 4.8% 0;
+}
+
+.content-items-left {
+    float: left;
+    width: 30%;
+    font-size: 15px;
+    color: #333;
+}
+
+.content-items-right {
+    float: left;
+    width: 70%;
+    font-size: 15px;
+    color: #333;
+}
+
+.spe {
+    color: #ff404f;
+}
+
+.active-description-footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 44px;
+    border-radius: 2.5px;
+    background-color: #ff4343;
+    color: #fff;
+    text-align: center;
+    line-height: 44px;
+}
