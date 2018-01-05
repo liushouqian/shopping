@@ -1213,6 +1213,7 @@ hr{
     width: 95%;
     background-color: #fff;
     margin: 20px auto;
+    position: relative;
 }
 .me_invoice_xiangqing p{
 	line-height: 40px;
@@ -2032,8 +2033,15 @@ background: #E5E5E5;
     width: 25px;
     margin-right: 5%;
 }
-
-
+.invoice_yikai{
+	width: 35%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.invoice_yikai img{
+	width: 100%;
+}
 
 
 /*320px以下的媒体查询*/
