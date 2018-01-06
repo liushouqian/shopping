@@ -87,6 +87,14 @@ hr{
     width: 25px;
     height: 30px;
 }
+.select_icon3{
+	background: url(../images/ellipse_off.png)  no-repeat 0 4px;
+	background-size: 100%;
+    float: left;
+    margin-left: 7%;
+    width: 25px;
+    height: 30px;
+}
 
 .small_demarcation{
 	height: 3px;
@@ -782,6 +790,9 @@ hr{
 	margin-left: 20px;
 }
 /*脚部*/
+.index-footer{
+	height: 60px;
+}
 .index-footer img{
 	display: block;
 }
@@ -890,6 +901,7 @@ hr{
     border-radius: 3px;
     font-size: 16px;
     text-align: center;
+    outline: none;
 }
 .secu_ul li{
 	width: 23%;
@@ -1135,8 +1147,7 @@ hr{
     padding-top: 30px;
 }
 .package_car p img{
-    width: 125px;
-    height: 125px;
+   	width: 55%;
 }
 .me_package1{
 	width: 95%;
@@ -1288,7 +1299,7 @@ hr{
     text-align: center;
 }
 .width_deta_95{
-	    width: 95%;
+    width: 95%;
     margin: 0 auto;
 	background-color: #FFFFFF;
 }
@@ -1627,10 +1638,14 @@ hr{
     font-size: 14px;
 }
 .pay_ment_pay{
-	    background-color: #FBFBFB;
+    background-color: #FBFBFB;
     width: 75%;
     margin: 0 auto;
     text-align: center;
+    display: block;
+    border: 0px;
+    line-height: 25px;
+    outline: none;
 }
 .pay_fangshi p{
 	    text-indent: 10px;
@@ -1813,14 +1828,27 @@ hr{
     padding-top: 10px;
 }
 .coupon_img{
-	    width: 25%;
+    width: 25%;
     margin: 10px;
+}
+.coupon_imga{
+    width: 27%;
+    margin: 10px;
+    background-color: #F07E76;
+    line-height: 30px;
+    color: #fff;
+    text-align: center;
+    border-radius: 10px;
+}
+.font_size26{
+	font-size: 26px;
 }
 .coupon_box img{
 	width: 100%;
 }
 .coupon_count{
-    width: 58%;
+    width: 52%;
+    line-height: 25px;
 }
 .coupon_count_tit{
 	overflow: hidden;line-height: 20px;
@@ -1922,10 +1950,10 @@ hr{
     font-size: 40px;
 }
 .luck_order{
-	    width: 35%;
+	    width: 30%;
     line-height: 35px;
     background-color: #fff;
-    border-radius: 2px;
+    border-radius: 5px;
     border: 0px solid;
     float: left;
     
@@ -1996,16 +2024,21 @@ background: #E5E5E5;
 .gift .order_list li{
 	width: 22%;
 }
+.gift .order_list strong{
+	float: left;
+    padding: 25px 0px;
+    border: 0.5px solid #E5E5E5;
+}
 .gift_logo{
 	background: url(../images/store.png) no-repeat center;
 	background-size: 100%;
 	padding: 10px;
 }
 .gift_img{
-	    width: 13%;
+    width: 13%;
     position: absolute;
     right: 6%;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 .gift_img img{
 	width:100%;
@@ -2043,6 +2076,54 @@ background: #E5E5E5;
 	width: 100%;
 }
 
+.banner_shop .shoping_banner{
+    position: relative;
+    width: 90%;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.budaizi{
+	background: url(../images/budaizi.png) no-repeat center;
+	background-size: 100%;
+	display: block;
+    padding: 30px 7px;
+    color: #fff;
+}
+.coupon_qie{
+	background-color: #FDF4EB;
+    width: 65%;
+    margin: 0 auto;
+    line-height: 20px;
+}
+.atten_zuosi{
+	height: 50px;
+	display: block;
+}
+.atten_zuosi .select_icon3{
+    width: 18px;
+    height: 23px;
+    margin-left: 20%;
+}
+.atten_zuosi .select .select_tex{
+	line-height: 20px;
+}
+.optimize_md{
+	position: relative;
+}
+.optimize_mdzz{
+	color: #FFFFFF;
+	widows: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(000,000,000,0.5);
+	display: none;
+}
+
+
+
 
 /*320px以下的媒体查询*/
 @media (max-width: 320px) {
@@ -2063,6 +2144,15 @@ background: #E5E5E5;
     }
     .order_list li a{
     	font-size: 12px;
+    }
+    .index-footer{
+    	height: 50px;
+    }
+    .font_size14{
+    	font-size: 12px;
+    }
+    .font_size16{
+    	font-size: 14px;
     }
 }
 

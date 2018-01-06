@@ -204,30 +204,60 @@ $(function() {
     	$(this).children('.me_cart_report').show();
 	})
 	//一直点击
-	$(function(){
-    	var t = 0,num=0;;
-	    $(".me_pack_img").click(function(){
-	        if( num == 0 ){
-	            t = new Date().getTime();
-	            num+=1;
-	           
-	        }else{
-            var tt = new Date().getTime();
-            if( tt-t<=500 ){
-                // 一直点击
-                $('.mask').show();
-	            $('.me_pack').hide();
-				$('.package_car').show();
-            }else if(tt-t>500){
-                num+=1;
-                $(this).find("label").text(num);
-            }
-            t = tt;
-        }
-	    });
-	});
+	$(function() {
+
+			var _switch = false;
+			var _time = null;
+			$('#me_pack2').on({
+				"touchstart": function() {
+					_time = setTimeout(function() {
+						$('.mask').show();
+			            $('.me_pack').hide();
+						$('.package_car').show();
+					}, 500);
+				},
+				"touchmove": function() {
+					clearTimeout(_time);
+					_switch = true;
+				},
+				"touchend": function() {
+					clearTimeout(_time);
+					if(_switch) {
+						_switch = false;
+						return;
+					} else {
+					}
+				}
+			});
+		})
+//	登录注册
+	$('#xuan2').on('click', function(e) {
+    	$(this).toggleClass('xuan3')
+	})
+//	我的礼品
 	
+	$('.me_pack_gift').on('click', function(e) {
+    	$('.mask').show();
+		$('.package_car').show();
+	})
 	
+	//	关注商品
+	
+	$('.optimize_md').on('click', function(e) {
+    	$(this).parent().find('.select_iconstio').toggleClass('select_icon2');
+    	if ($('.atten_zuosi').show()) {
+    		$('.atten_zuosi').show();
+    	}
+		
+	})
+	$('.select_icon3').on('click', function(e) {
+    	
+    	if ($('.optimize-items .select_iconstio').hasClass('select_icon2')) {
+    		$('.select_iconstio').removeClass('select_icon2');
+    	}
+    	$('.select_iconstio').addClass('select_icon2');
+		
+	})
 });
 
 //星星评价
