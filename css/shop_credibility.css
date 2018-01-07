@@ -1,0 +1,129 @@
+.shop-evaluation {
+    width: 100%;
+    height: 44px;
+    padding-left: 18.5px;
+    background-color: #fff;
+    line-height: 44px;
+    font-size: 14px;
+    color: #666;
+}
+
+.shop-score {
+    position: relative;
+    width: 100%;
+    height: 88px;
+    margin-top: 1px;
+    background-color: #fff;
+}
+
+.shop-score-des {
+    position: absolute;
+    left: 12.5%;
+    font-size: 14px;
+    color: #333;
+    line-height: 1;
+}
+
+.shop-score-des span {
+    color: #fd2c2d;
+}
+
+.des0 {
+    top: 9.5px;
+}
+
+.des1 {
+    top: 38px;
+}
+
+.des2 {
+    top: 65px;
+}
+
+.score-star {
+    position: absolute;
+}
+
+.score-star li {
+    float: left;
+    width: 20px;
+    height: 15px;
+    overflow: hidden;
+}
+
+.star0 {
+    top: 9.5px;
+    right: 57px;
+}
+
+.star1 {
+    top: 38px;
+    right: 57px;
+}
+
+.star2 {
+    top: 65px;
+    right: 57px;
+}
+
+.evaluation-title {
+    width: 100%;
+    height: 38px;
+    padding: 0 17px;
+    margin-top: 5px;
+    background: #fff;
+    line-height: 38px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.evaluation-title-txt {
+    float: left;
+    color: #666;
+    font-size: 13px;
+}
+
+.evaluation-title-goods {
+    float: right;
+    color: #666;
+    font-size: 13px;
+}
+
+.evaluation-title-goods span {
+    color: #fd2c2d;
+}
+
+.evaluation-content {
+    position: relative;
+    width: 100%;
+    min-height: 120px;
+    margin-bottom: 4.5px;
+    background-color: #fff;
+}
+
+.star3 {
+    top: 10px;
+    left: 15px;
+}
+
+.evaluation-content-name {
+    position: absolute;
+    top: 11px;
+    right: 12px;
+    font-size: 13px;
+    color: #666;
+}
+
+.evaluation-content-txt {
+    width: 90%;
+    padding: 33px 0 30px 5%;
+    font-size: 13px;
+    color: #666;
+}
+
+.evaluation-content-time {
+    position: absolute;
+    right: 25px;
+    bottom: 15px;
+    font-size: 9px;
+    color: #666;
+}

@@ -281,16 +281,28 @@
 }
 
 .commodities-active-thirdRol {
+    height: 22px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     font-size: 16px;
     color: #666;
 }
 
 .commodities-active-fourthRol {
+    height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     font-size: 14px;
     color: #666;
 }
 
 .commodities-active-fifthRol {
+    height: 17px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     font-size: 12px;
     color: #e93b3d;
 }
@@ -344,6 +356,10 @@
 }
 
 .commodities-active2-thirdRol {
+    height: 15px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     font-size: 15px;
     color: #666;
     line-height: 1;
@@ -351,6 +367,10 @@
 }
 
 .commodities-active2-fourthRol {
+    height: 13px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     font-size: 13px;
     color: #666;
     line-height: 1;
@@ -358,6 +378,10 @@
 }
 
 .commodities-active2-fifthRol {
+    height: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
     font-size: 11px;
     color: #e93b3d;
     line-height: 1;

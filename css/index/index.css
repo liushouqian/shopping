@@ -275,6 +275,8 @@
 
 .commodities-content-des {
     width: 100%;
+    height: 40px;
+    overflow: hidden;
     margin: 8px 0 10px;
     color: #999;
     font-size: 14px;
