@@ -75,6 +75,10 @@ body{
 	padding: 10px;
     margin-right: 10px;
 }
+.xuan3{
+	background: url(../images/mlogin_xuan.png) no-repeat center;
+	background-size: 100%;
+}
 .login_bottom{
 	    width: 90%;
     margin: 0 auto;

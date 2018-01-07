@@ -1,0 +1,143 @@
+.tian_icon1{
+	background: url(../../images/index_groupon_alarm.png) no-repeat center;
+	background-size: 100%;
+	padding: 10px;
+    margin-right: 5px;
+}
+.priceColor_green{
+	color: #00B12A;
+}
+.shop_xiangqing_icon2{
+	background: url(../../images/report.png) no-repeat center;
+	background-size: 100%;
+    padding: 3px 12px;
+}
+.tian_pic{
+    text-align: left;
+    line-height: 25px;
+    color: #666666;
+}
+.priceColor_reda{
+	color: #FF2F39;
+	font-weight: bold;
+}
+.tiantian_bottom{
+    background-color: #fff;
+    width: 100%;
+    margin-top: 10px;
+}
+.tian_ul{
+	overflow: hidden;
+}
+.tian_ul li{
+	float: left;
+	width: 25%;
+	background-color: #F6F6F6;
+	color: #666666;
+    line-height: 45px;
+    text-align: center;
+}
+.tian_ul .cleak{
+	background-color: #FFFFFF;
+}
+.tian_tan{
+	color: #666666;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.tian_tan p{
+	line-height: 30px;
+    text-indent: 15px;
+}
+
+.tian_tab_tilt{
+    text-indent: 10px;
+    line-height: 30px;
+    color: #666666;
+}
+.tian_miao{
+	overflow: hidden;
+}
+.tian_miao_left{
+    width: 22%;
+    text-align: center;
+    padding: 10px;
+    border-right: 1px solid #f6f6f6;
+    font-size: 12px;
+}
+.activies_table_tian{
+	width: 100%;
+	line-height: 45px;
+	background-color: #FFFFFF;
+}
+.activies_table_tian tbody th{
+	color: #666666;
+	font-weight: initial;
+    font-size: 14px;
+    border-bottom: 0.5px solid #F6F6F6;
+}
+.activies_table_tian th span{
+	font-size: 12px;
+	color: #666666;
+}
+.activies_table_tian a{
+	color: dodgerblue;
+}
+.tian_th{
+	display: block;
+	line-height: 20px;
+}
+.tian_tab_zixun{
+    color: #666666;
+    line-height: 30px;
+    width: 95%;
+    margin: 0 auto;
+}
+.tian_tab_hui{
+	text-align: right;
+}
+.tian_zixun{
+    width: 95%;
+    margin: 0 auto;
+}
+.tian_textarea{
+    width: 100%;
+    display: block;
+    height: 100px;
+    overflow-y: scroll;
+    line-height: 20px;
+    text-indent: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.tian_a{
+    text-align: right;
+    color: #EF4441;
+    display: block;
+    padding: 10px;
+}
+
+.hank_icon10{
+	background: url(../../images/city.png) no-repeat center;
+	background-size: 100%;
+	padding: 10px;
+}
+.hank_pay_tian{
+	height: 65%;
+	min-height: 65%;
+    overflow-y: scroll;
+    line-height: 50px;
+}
+.hank_pay_tian li{
+	text-indent: 20px;
+	    font-size: 18px;
+}
+.hank_pay_tianli{
+	color: #E93B3D;
+}
+
+
+
+
+
+
