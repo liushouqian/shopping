@@ -258,6 +258,7 @@ $(function() {
     	$('.select_iconstio').addClass('select_icon2');
 		
 	})
+	
 });
 
 //星星评价

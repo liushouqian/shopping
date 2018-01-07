@@ -1250,12 +1250,12 @@ hr{
 .shop_xiangqing_icon{
 	background: url(../images/follow_off.png) no-repeat center;
 	background-size: 100%;
-	    padding: 3px 15px;
+	    padding: 3px 12px;
 }
 .shop_xiangqing_icon1{
 	background: url(../images/follow_on.png) no-repeat center;
 	background-size: 100%;
-	    padding: 3px 15px;
+	    padding: 3px 12px;
 }
 .details_backa{
 	    width: 100%;
@@ -1707,6 +1707,7 @@ hr{
 	padding: 10px;
 	float: right;
     margin: 15px;
+    display: none;
 }
 .pay_hank_xuaze{
 	    line-height: 45px;
@@ -2007,8 +2008,14 @@ background: #E5E5E5;
 	width: 100%;
 	line-height: 45px;
 	background-color: #FFFFFF;
-	    display: inline-grid;
-	
+    display: inline-grid;
+	table-layout:fixed;
+	white-space: nowrap; 
+}
+.activies_tableb th{
+	/*white-space: nowrap; 
+	overflow: hidden;
+	text-overflow: ellipsis;*/
 }
 .activies_tableb thead th{
 	font-size: 14px;
@@ -2122,8 +2129,12 @@ background: #E5E5E5;
 	display: none;
 }
 
-
-
+.optimize-items-title{
+	font-size: 14px;
+}
+.optimize-items-title a{
+	color: #999999;
+}
 
 /*320px以下的媒体查询*/
 @media (max-width: 320px) {
