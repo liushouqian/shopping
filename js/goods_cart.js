@@ -201,7 +201,10 @@ $(function() {
 		$('.package_car').hide();
 	})
 	$('.me_pack').on('click', function(e) {
-    	$(this).children('.me_cart_report').show();
+    	
+    	$('.mask').show();
+        $('.me_pack').hide();
+		$('.package_car').show();
 	})
 	//一直点击
 	$(function() {
@@ -211,9 +214,7 @@ $(function() {
 			$('#me_pack2').on({
 				"touchstart": function() {
 					_time = setTimeout(function() {
-						$('.mask').show();
-			            $('.me_pack').hide();
-						$('.package_car').show();
+						$('.me_cart_report').show();
 					}, 500);
 				},
 				"touchmove": function() {

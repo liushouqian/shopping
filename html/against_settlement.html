@@ -22,7 +22,7 @@
 				<p class="pay_pay">选择支付方式</p>
 				<div class="payment_pay">
 					<p class="paymentpay">
-						<span class="select_icon"></span>
+						<span class="select_icon" id="seet_jifen"></span>
 						商家账户积分：<span>300 </span>支付
 					</p>
 					<input type="text" class="pay_ment_pay" placeholder="200">
@@ -33,6 +33,7 @@
 					<input type="text" class="pay_ment_pay" placeholder="200">
 				</div>
 			</div>
+			<form action="#" method="post" id="libi">
 			<div class=" page_fist_margina payment_bottom">
 				<div class="pay_pingtai  page_fist_marginb">
 					<p class="float_left page_fist_fontleft">
@@ -63,6 +64,39 @@
 			<div>
 				<input type="submit" value="确认支付" class="name_submit" id="pay_paword" />
 			</div>
+			</form>
+			<form action="#" method="post" id="jifen" style="display: none;">
+			<div class=" page_fist_margina payment_bottom">
+				<div class="pay_pingtai  page_fist_marginb">
+					<p class="float_left page_fist_fontleft">
+						<span class="page_fist_deep">当前账户积分余额：</span>
+					</p>
+					<p class="page_fist_allorder float_right">
+						<span class="page_fist_shallow">200</span>
+					</p>
+				</div>
+				<div class="pay_pingtai  page_fist_marginb">
+					<p class="float_left page_fist_fontleft">
+						<span class="page_fist_deep">本次积分支付：</span>
+					</p>
+					<p class="page_fist_allorder float_right">
+						<span>1200</span>
+					</p>
+				</div>
+				<div class="pay_pingtai  page_fist_marginb">
+					<p class="float_left page_fist_fontleft">
+						<span class="page_fist_deep">剩余积分：</span>
+					</p>
+					<p class="page_fist_allorder float_right">
+						<span class="page_fist_shallow">200</span>
+					</p>
+				</div>
+				
+			</div>
+			<div>
+				<input type="submit" value="确认支付" class="name_submit" id="pay_paword" />
+			</div>
+			</form>
 		</article>
 		<!--遮罩层-->
 		<div class="mask"></div>
@@ -155,7 +189,14 @@ $(function(){
 			$(this).parent().siblings().find('.select_icon').css('background-image','url(../images/ellipse_off.png)');
 			
 		})
-		
+		$('#seet_jifen').click(function(){
+			$('#jifen').show();
+			$('#libi').hide();
+		})
+		$('#select_icon_libi').click(function(){
+			$('#jifen').hide();
+			$('#libi').show();
+		})
 	})
 	</script>
 </html>
