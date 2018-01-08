@@ -148,9 +148,6 @@
     margin: 7.5px 0 0 15px;
     font-size: 9px;
     color: #000;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
 }
 
 .enterprise-content-site {
