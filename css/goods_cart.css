@@ -614,9 +614,10 @@ hr{
 .order_nav {
 	display: none;
     width: 100%;
-    height: 60px;
+    height: auto;
     padding: 2px 0;
     background-color: #404042;
+    overflow: hidden;
 }
 
 .order_nav_items {
@@ -634,7 +635,7 @@ hr{
 }
 .order_nav .order_nav_check{
 	background-color: #2D2D2D;
-	height: 60px;
+	height: auto;
 }
 /*商品购买*/
 
@@ -791,7 +792,7 @@ hr{
 }
 /*脚部*/
 .index-footer{
-	height: 60px;
+	height: auto;
 }
 .index-footer img{
 	display: block;
