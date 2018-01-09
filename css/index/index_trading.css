@@ -207,12 +207,14 @@
 .trading-items li {
     float: left;
     width: 17%;
+    height: 32px;
     margin: 0 1.5% 10px 1.5%;
     text-align: center;
     border: 1px solid #c9c9c9;
     line-height: 30px;
     color: #333;
     font-size: 12px;
+    overflow: hidden;
 }
 
 .trading-items li.active {
@@ -290,7 +292,7 @@
 }
 
 .commodities-active-fourthRol {
-    height: 20px;
+    height: 40px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -317,7 +319,6 @@
 
 .commodities-active1 {
     width: 49%;
-    height: 215px;
     float: left;
     margin: 0 0.5%;
     border: 1px solid #c9c9c9;
@@ -368,14 +369,13 @@
 }
 
 .commodities-active2-fourthRol {
-    height: 13px;
+    height: 40px;
     overflow: hidden;
     text-overflow: ellipsis;
     white-space: nowrap;
     font-size: 13px;
     color: #666;
     line-height: 1;
-    margin-bottom: 7px;
 }
 
 .commodities-active2-fifthRol {
