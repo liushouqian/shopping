@@ -45,6 +45,7 @@
 .lucky-content div {
     float: left;
     width: 33.33%;
+    max-height: 120px;
     border-radius: 5px;
     background-color: #fff;
     overflow: hidden;
