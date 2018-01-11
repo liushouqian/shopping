@@ -260,6 +260,11 @@ $(function() {
 		
 	})
 	
+	$('.hank_pay_car li').on('click', function() {
+				$(this).find('.hangkpay_icon').show();
+				$(this).siblings().find('.hangkpay_icon').hide();
+			})
+	
 });
 
 //星星评价

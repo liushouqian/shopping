@@ -1703,7 +1703,7 @@ hr{
     margin-right: 10px;
 }
 .hangkpay_icon{
-	background: url(../images/chakan.png) no-repeat center;
+	background: url(../images/duigou.png) no-repeat center;
 	background-size: 100%;
 	padding: 10px;
 	float: right;
@@ -1851,6 +1851,7 @@ hr{
 .coupon_count{
     width: 52%;
     line-height: 25px;
+    margin-top: 10px;
 }
 .coupon_count_tit{
 	overflow: hidden;line-height: 20px;
@@ -1905,20 +1906,20 @@ hr{
     left: 22%;
 }
 .content-items .details_guan{
-	    line-height: 16px;
+    line-height: 16px;
 }
 .content-items .details_guan .shop_xiangqing_icon{
-	    padding: 3px 10px;
+    padding: 3px 10px;
 }
 .content-items .details_guan .shop_xiangqing_icon1{
-	    padding: 3px 10px;
+    padding: 3px 10px;
 }
 .select_icon2{
     background: url(../images/ellipse_on.png) no-repeat 0 4px;
     background-size: 100%;
     width: 25px;
     height: 30px;
-        position: absolute;
+    position: absolute;
     top: 13px;
     right: 13px;
 }
@@ -2101,7 +2102,7 @@ background: #E5E5E5;
 }
 .coupon_qie{
 	background-color: #FDF4EB;
-    width: 65%;
+    width: 80%;
     margin: 0 auto;
     line-height: 20px;
 }
@@ -2165,6 +2166,9 @@ background: #E5E5E5;
     }
     .font_size16{
     	font-size: 14px;
+    }
+    .coupon_die{
+    	top: 2px;
     }
 }
 
