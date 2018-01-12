@@ -15,21 +15,38 @@
 
 	<body>
 		<p class="me_cart_top">
-			<span class="me_package2">平台通用卡</span>
-			<span style="margin-left: -5px;">商城专用卡</span>
+			<span class="me_package2" id="rise_invoicea">平台通用卡</span>
+			<span style="margin-left: -5px;"id="me_invoicea">商城专用卡</span>
 		</p>
-		<article id="me_pack">
-			<div class="me_package1 me_pack" id="me_pack2">
-				<img src="../images/beijingtu2.png" class="me_pack_img" />
-				<p class="me_cart_report">
-					<span>注销</span>
-					<span>挂失</span>
-				</p>
-			</div>
-			<div class="me_package1 me_pack">
-				<img src="../images/beijingtu2.png" class="me_pack_img" />
-			</div>
-		</article>
+		<div class="rise_invoice" >
+			<article id="me_pack">
+				<div class="me_package1 " id="me_pack2">
+					<img src="../images/beijingtu2.png" class="me_pack_img me_pack" />
+					<p class="me_cart_report">
+						<span>注销</span>
+						<span>挂失</span>
+					</p>
+				</div>
+				<div class="me_package1 me_pack">
+					<img src="../images/beijingtu2.png" class="me_pack_img" />
+				</div>
+			</article>
+		</div>
+			<!--商城专用卡-->
+		<div class="me_invoice">
+			<article id="me_pack">
+				<div class="me_package1 " id="me_pack2">
+					<img src="../images/beijingtu2.png" class="me_pack_img me_pack" />
+					<p class="me_cart_report">
+						<span>注销</span>
+						<span>挂失</span>
+					</p>
+				</div>
+				<div class="me_package1 me_pack">
+					<img src="../images/beijingtu2.png" class="me_pack_img" />
+				</div>
+			</article>
+		</div>
 		<!--遮罩层-->
 		<div class="mask"></div>
 		<div class="package_car" id="package_car" style="display: none;">
@@ -45,5 +62,23 @@
 	</body>
 
 	<script src="../js/goods_cart.js" type="text/javascript" charset="utf-8"></script>
-
+	<script type="text/javascript">
+		$('#rise_invoicea').on('click', function(e) {
+			$(this).addClass('me_package2').siblings().removeClass('me_package2');
+	    	$('.me_invoice').hide();
+	    	$('.rise_invoice').show();
+	    	$('.me_cart_invoice').show();
+		})
+		$('#me_invoicea').on('click', function(e) {
+			$(this).addClass('me_package2').siblings().removeClass('me_package2');
+	    	$('.me_invoice').show();
+	    	$('.rise_invoice').hide();
+	    	$('.me_cart_invoice').hide();
+		})
+		$('.me_cart_report').on("click", function() {
+			$('.mask').hide();
+	        $('.me_cart_report').hide();
+	
+		})
+	</script>
 </html>
