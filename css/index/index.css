@@ -142,14 +142,15 @@
 
 .infomation-left {
     width: 11%;
-    padding: 7px 8px;
+    padding: 7px 0;
     float: left;
     background-color: #e5e5e5;
+    text-align: center;
     color: #fc1b1b;
 }
 
 .infomation-left img {
-    width: 80%;
+    width: 50%;
     margin: 0 auto 5px;
     display: block;
 }
@@ -219,16 +220,26 @@
 .active-content-big {
     position: relative;
     width: 43%;
+    height: 194px;
     float: left;
     border-radius: 3px;
+    overflow: hidden;
+}
+
+.active-content-big img,
+.active-content-sm img {
+    width: 100%;
+    height: 100%;
 }
 
 .active-content-sm {
     position: relative;
     width: 26%;
+    height: 90px;
     float: left;
     margin: 0 0 12px 2.5%;
     border-radius: 3px;
+    overflow: hidden;
 }
 
 .active-content-shadow {

@@ -5,29 +5,56 @@ function scrollNews (obj) {
         $self.css({'margin-top': '0px'}).find('li:first').appendTo($self);
     });
 }
-function bannerScroll() {
-    var bannerItems = $(".banner_items li").length;
-    $(".banner_items").css("width", bannerItems*window.screen.width);
-    $(".banner_items li").css("width", window.screen.width);
-    var num = 0,
-        leftSite = 0;
-    setInterval(function () {
-        leftSite -= window.screen.width;
-        $(".banner_items").css("left", leftSite);
-        num++;
-        if(num == bannerItems) {
-            num = 0;
-            $(".banner_items").css("left", 0);
-            leftSite = 0;
-        }
-    },3000);
-}
+function renderBanner(bannerList) {
+    var html = '<ul class="slider-list">';
+    $.each(bannerList, function(index, item) {
+      var url =
+        item["url"].match(/./) == "/"
+          ? "https://simu.dahuo.la" + item["url"]
+          : item["url"];
+      html +=
+        '<li class="slider-item openParam" data-param="' +
+        url +
+        '"' +
+        'data-baidu-action="banner" data-baidu-label="' +
+        (parseInt(index) + 1) +
+        '">' +
+        '<div class="img-wrap"><img class="banner-image" src="' +
+        item["image"] +
+        '"/></div></li>';
+    });
+    html += "</ul>";
+    return html;
+  }
 $(function () {
+    var bannerList = [
+        {
+          image: "../images/index_banner.png",
+          url: "../images/index_banner.png"
+        },
+        {
+          image: "../images/index_banner.png",
+          url: "../images/index_banner.png"
+        },
+        {
+          image: "../images/index_banner.png",
+          url: "../images/index_banner.png"
+        },
+        {
+          image: "../images/index_banner.png",
+          url: "../images/index_banner.png"
+        }
+      ];
+      var bannerHTML = renderBanner(bannerList);
+      $("#banner").html(bannerHTML);
+      $("#banner").slider({
+        autoScroll: true,
+        infinite: true
+      });
     var $this = $('.infomation-right');
     scrollTimer = setInterval(function () {
         scrollNews($this);
     }, 3000);
-    bannerScroll();
     var opa = 0;
     $(window).scroll(function () {
         var heightTop = $(document).scrollTop();

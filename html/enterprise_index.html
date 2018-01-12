@@ -14,21 +14,7 @@
 
 <body>
     <div class="index-body">
-        <div class="banner">
-            <div>
-                <ul class="banner_items clearFix">
-                    <li>
-                        <img src="../images/index_banner.png" alt="banner">
-                    </li>
-                    <li>
-                        <img src="../images/index_banner.png" alt="banner">
-                    </li>
-                    <li>
-                        <img src="../images/index_banner.png" alt="banner">
-                    </li>
-                </ul>
-            </div>
-        </div>
+        <section class="slider-wrap" id="banner"></section>
         <div class="enterprise-content">
             <div class="clearFix">
                 <!-- <img src="" class="enterprise-content-logo"> -->
@@ -43,18 +29,23 @@
                 <div class="enterprise-content-tel">电话：020-88937784</div>
                 <div class="enterprise-content-des">简介：主要是汽油、柴油、配套洗车、24小时便利店</div>
                 <div class="clearFix">
-                    <div class="enterprise-content-site">地址：河北省香河县卫国道109</div>
-                    <img src="../images/enterprise-map.png" class="enterprise-content-map-logo">
-                    <div class="enterprise-content-map">地图</div>
+                    <div class="enterprise-content-site">地址：河北省香河县卫国道109
+                        <img src="../images/enterprise-map.png" class="enterprise-content-map-logo">
+                        <div class="enterprise-content-map">地图</div>
+                    </div>
                 </div>
-                <div class="lucky-draw">
-                    <img src="../images/enterprise-lucky.png">
-                    <div>抽奖</div>
-                </div>
-                <div class="redeem">
-                    <img src="../images/enterprise-redeem.png">
-                    <div>兑换</div>
-                </div>
+                <a href="../html/lucky_detail.html">
+                    <div class="lucky-draw">
+                        <img src="../images/enterprise-lucky.png">
+                        <div>抽奖</div>
+                    </div>
+                </a>
+                <a href="../html/redeem_detail.html">
+                    <div class="redeem">
+                        <img src="../images/enterprise-redeem.png">
+                        <div>兑换</div>
+                    </div>
+                </a>
             </div>
         </div>
         <div class="active-div">
@@ -215,13 +206,15 @@
             <div class="redeem-alert-content-logo">
                 <img src="../images/redeem_alert_success.png">
             </div>
-            <div class="redeem-alert-content-text">恭喜你成功领取优惠券<br>可到卡包里查看</div>
+            <div class="redeem-alert-content-text">恭喜你成功领取优惠券
+                <br>可到卡包里查看</div>
             <div class="redeem-alert-content-line"></div>
             <div class="redeem-alert-content-ok">确定</div>
         </div>
     </div>
 </body>
 <script src="../js/jquery-3.2.1.min.js"></script>
+<script src="../js/slider.js"></script>
 <script src="../js/enterprise_index.js"></script>
 
 </html>
