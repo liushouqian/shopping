@@ -453,6 +453,7 @@ hr{
     top: 0px;
     left: 43%;
     width: 21%;
+    background: rgba(255,255,2555,0);
 }
 .search_box .search{
 	width: 86%;
@@ -1320,7 +1321,7 @@ hr{
 }
 .details_selectp{
 	    width: 73%;
-       display: inline-flex;
+   display: inline-flex;
     word-wrap: normal;
 }
 .details_selectimg{
@@ -1329,9 +1330,9 @@ hr{
     margin: 23px 0px;
 }
 .details_ziying{
-	    background-color: #fff;
+    background-color: #fff;
     margin-top: 10px;
-    padding: 4%;
+    padding: 2%;
 }
 .details_ziying_tit{
 	    width: 70%;
@@ -2004,31 +2005,34 @@ hr{
     font-size: 14px;
 }
 .activies_table tr:nth-child(even){
-background: #E5E5E5;
+	background: #E5E5E5;
 }
 .activies_tableb{
 	width: 100%;
 	line-height: 45px;
 	background-color: #FFFFFF;
-    display: inline-grid;
-	table-layout:fixed;
-	white-space: nowrap; 
+   
 }
-.activies_tableb th{
-	/*white-space: nowrap; 
-	overflow: hidden;
-	text-overflow: ellipsis;*/
-}
-.activies_tableb thead th{
-	font-size: 14px;
-}
-.activies_tableb tbody th{
-	color: #666666;
+
+.activies_tableb thead th,td{
+	color: #333333;
 	font-weight: initial;
     font-size: 12px;
 }
-.activies_tableb tr{
-	border-bottom: 1px solid #CCCCCC;
+.activies_tableb tbody .lingqu{
+	display: inline-grid;
+	white-space: nowrap;
+    margin-left: 5px;
+}
+.activies_tableb tbody th,td{
+	color: #333333;
+	font-weight: initial;
+   font-size: 12px;
+}
+.activies_tableb_tr{
+	border-bottom: 1px solid #333333;
+	text-align: left;
+	text-indent: 10px;
 }
 .gift .order_list li{
 	width: 22%;
@@ -2137,6 +2141,31 @@ background: #E5E5E5;
 .optimize-items-title a{
 	color: #999999;
 }
+.cart1 hr{
+	margin-bottom: 0px;
+}
+.assets_contab{
+	overflow: hidden;
+}
+.assets_contab .assets_cont{
+    width: 170px;
+}
+.seckul {
+	width: 1200px;
+	padding-bottom: 10px;
+	border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+}
+
+.seck_list {
+	box-sizing: border-box;
+	padding: 0 11px;
+}
+
+
+
+
+
+
 
 /*320px以下的媒体查询*/
 @media (max-width: 320px) {
@@ -2169,6 +2198,12 @@ background: #E5E5E5;
     }
     .coupon_die{
     	top: 2px;
+    }
+    .details_ziying_tit{
+	    font-size: 14px;
+    }
+    .details_guan{
+    	width: 20%;
     }
 }
 

@@ -39,6 +39,14 @@ for(var i = 0; i < container.length; i++) {
 }
 
 $(function() {
+//	搜索获取焦点
+	
+	$(".search").focus(function(){
+		$('.search_box_tech').hide();
+	})
+	$(".search").blur(function(){
+		$('.search_box_tech').show();
+	})
 	//	全选+按钮
 	$(".select_icon").toggle(
 		function() {
