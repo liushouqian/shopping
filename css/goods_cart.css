@@ -1427,16 +1427,19 @@ hr{
     color: #fff;
 }
 .page_fist_margin li{
-	width: 33%;
+	width: 32%;
 	float: left;
-	    line-height: 31px;
+    line-height: 31px;
 }
 .page_fist_margin li span{
 	display: block;
 	
 }
+.page_f {
+	width: 100%;
+}
 .page_f strong{
-	    float: left;
+    float: left;
     padding: 30px 0px;
     border: 0.5px solid #E5E5E5;
 }
